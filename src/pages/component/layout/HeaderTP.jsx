@@ -1,6 +1,5 @@
 import React from 'react'
-
-
+import Slick from '../slider/slick'
 
 function HeaderTP() {
     
@@ -701,7 +700,7 @@ function HeaderTP() {
                         </div>
                     </div>
                     <div class="col-md-7">
-
+                        <Slick />
                         {/* <div class="ta-scroll-slider">
                             <div class="single-ta-scroll-slider">
                                 <a href="product-details.html">

@@ -1427,7 +1427,7 @@ button#menubar-collapse {
     overflow: hidden;
     border-top: none;
     border-bottom: none;
-    margin: 5px 0px;
+    margin: 8px 0px;
 }
 .slick-track{
     top: 10px;
@@ -1458,7 +1458,9 @@ button#menubar-collapse {
 .single-ta-scroll-slider:hover {
     background: #f9f3f0;
 }
-
+.slick-dots {
+    visibility: hidden;
+}
 /* header cart start */
 
 .user-panel .up-item {
