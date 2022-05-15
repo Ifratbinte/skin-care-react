@@ -1463,16 +1463,16 @@ button#menubar-collapse {
 }
 /* header cart start */
 
-.user-panel .up-item {
+.header-action .up-item {
     display: inline-block;
     font-size: 14px;
 }
 
-.user-panel .up-item i {
+.header-action .up-item i {
     font-size: 22px;
 }
 
-.user-panel ul {
+.header-action ul {
     padding-top: 6px;
     display: flex;
     justify-content: flex-end;
@@ -1480,10 +1480,10 @@ button#menubar-collapse {
 .action-nav-list{
     margin-right: 10px;
 }
-.user-panel {
+.header-action {
     margin-top: 24px;
 }
-.user-panel ul li a {
+.header-action ul li a {
     display: block;
     text-decoration: none;
     padding-left: 22px;
@@ -1493,7 +1493,7 @@ button#menubar-collapse {
     font-family: 'Lato';
 }
 
-.user-panel i.fa.fa-cart-plus {
+.header-action i.fa.fa-cart-plus {
     font-size: 24px;
     color: #EB9896;
     margin: -3px 7px;
@@ -4315,8 +4315,8 @@ a.text-reset {
 
 /* --------------FAQ page end--------------- */
 
-.user-panel1 .cart-dropdown,
-.user-panel1 .lang-form {
+.header-action1 .cart-dropdown,
+.header-action1 .lang-form {
     top: 167%;
 }
 
