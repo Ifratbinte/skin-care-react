@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Slick from '../../slider/slick'
+import Slick from '../../slider/slick/slick'
 import HeaderAction from './headerAction'
 
 class HeaderBottom extends Component {

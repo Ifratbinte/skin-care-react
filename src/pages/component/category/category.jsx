@@ -6,27 +6,27 @@ const Category = () => {
   const [category] = useState(CategoryItems);
 
   return (
-    <section class="category-item section-gap">
-          <div class="container">
-              <div class="category">
-                  <div class="row">
-                      <div class="col-md-12">
-                          <div class="section-title category-title">
+    <section className="category-item section-gap">
+          <div className="container">
+              <div className="category">
+                  <div className="row">
+                      <div className="col-md-12">
+                          <div className="section-title category-title">
                               <h3>Category</h3>
                           </div>
                       </div>
                   </div>
 
-                  <div class="row">
+                  <div className="row">
                     {
                       category.map((elem) => {
                         const { id, image, name } = elem;
                         return(
-                          <div key={category.id} class="col-lg-2 col-md-3 col-sm-4 col-6">
-                            <div class="ta-single-product">
+                          <div key={category.id} className="col-lg-2 col-md-3 col-sm-4 col-6">
+                            <div className="ta-single-product">
                               <a href="product.html">
-                                  <div class="p-4 text-center">
-                                      <img class="s-product-img" src={image} alt=""/>
+                                  <div className="p-4 text-center">
+                                      <img className="s-product-img" src={image} alt=""/>
                                       <h5>{name}</h5>
                                   </div>
                               </a>

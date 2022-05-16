@@ -25,7 +25,7 @@ function HeaderRes() {
                             <h5 className="lang-regional ">Regional Settings</h5>
                             <form action="">
                                 <div className="form-group">
-                                    <label for="exampleFormControlSelect1">Country/Region</label>
+                                    <label htmlFor="exampleFormControlSelect1">Country/Region</label>
                                     <select className="form-control" id="country">
                                         <option value="item1" >Bangladesh</option>
                                         <option value="item2" >India</option>
@@ -34,7 +34,7 @@ function HeaderRes() {
                                     </select>
                                 </div>
                                 <div className="form-group">
-                                    <label for="exampleFormControlSelect1">Language</label>
+                                    <label htmlFor="exampleFormControlSelect1">Language</label>
                                     <select className="form-control" id="language">
                                         <option value='1'>Bangla</option>
                                     </select>
@@ -195,7 +195,7 @@ function HeaderRes() {
                 <div>
                     <form className="header-search-form">
                         <div className="input-group md-form form-sm form-2 pl-0">
-                            <input type="text" className="s" placeholder="Search for products..." value="" name="s" autocomplete="off"/> <i className="flaticon-search"></i>
+                            <input type="text" className="s" placeholder="Search for products..." value="" name="s" autoComplete="off"/> <i className="flaticon-search"></i>
                         </div>
                     </form>
                 </div>

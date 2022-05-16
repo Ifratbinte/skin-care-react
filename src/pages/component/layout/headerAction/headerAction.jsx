@@ -23,7 +23,7 @@ class HeaderAction extends Component {
                             <h5 className="lang-regional">Regional Settings</h5>
                             <form action="">
                                 <div className="form-group">
-                                    <label for="exampleFormControlSelect1">Country/Region</label>
+                                    <label htmlFor="exampleFormControlSelect1">Country/Region</label>
                                     <select className="form-control select-icon" id="country1">
                                         <option value="item1" >Bangladesh</option>
                                         <option value="item2" >India</option>
@@ -32,7 +32,7 @@ class HeaderAction extends Component {
                                     </select>
                                 </div>
                                 <div className="form-group">
-                                    <label for="exampleFormControlSelect1">Language</label>
+                                    <label htmlFor="exampleFormControlSelect1">Language</label>
                                     <select className="form-control select-icon" id="language1">
                                         <option value='1'>Bangla</option>
                                     </select>

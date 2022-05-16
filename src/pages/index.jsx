@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HeaderRes from './component/layout/headerRes'
 import HeaderTP from './component/layout/HeaderTP'
 import Home from './component/home'
+import Product from './component/product'
 // import ThankYou from './component/thankYou'
 
 class Index extends Component {
@@ -9,17 +11,21 @@ class Index extends Component {
     return (
       <div>
         <HeaderRes />
-        {/* Scroll Top Button */}
-        <div class="page_top">
+        <div className="page_top">
             <a href="/">
-                <i class="fa fa-chevron-up scroll-icon"></i>
+                <i className="fa fa-chevron-up scroll-icon"></i>
             </a> 
         </div>
-
-        {/* main container */}
-        <div class="body-container">
+         <div className="body-container">
           <HeaderTP />
-          <Home />
+          <BrowserRouter>
+            <Routes>
+              <Route path="/" element={<Home />}>
+                <Route path="product" element={<Product />} />
+                {/* <Route path="contact" element={<Contact />} /> */}
+              </Route>
+            </Routes>
+          </BrowserRouter>
         </div>
       </div>
     )

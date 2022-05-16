@@ -8,7 +8,7 @@ class headerMiddle extends Component {
             <div className="row">
                 <div className="col-lg-2 col-md-2 col-sm-4 ">
                     <div className="logo">
-                        <a href="./index.html" className="site-logo">
+                        <a href="/" className="site-logo">
                             <img src="assets/img/logo.png" alt=""/>
                         </a>
                     </div>
@@ -17,7 +17,7 @@ class headerMiddle extends Component {
                 <div id="search-bar" className="col-lg-7 col-md-5 col-sm-8 ">
                     <form className="header-search-form">
                         <div className="input-group md-form form-sm form-2 pl-0">
-                            <input type="text" className="s" placeholder="Search for products..." value="" name="s" autocomplete="off"/> <i className="flaticon-search"></i>
+                            <input type="text" className="s" placeholder="Search for products..." value="" name="s" autoComplete="off"/> <i className="flaticon-search"></i>
                         </div>
                     </form>
                 </div>
