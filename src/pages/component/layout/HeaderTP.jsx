@@ -6,7 +6,7 @@ import HeaderBottom from './headerAction/headerBottom'
 function HeaderTP() {
     
   return (
-    <header class="header-section">
+    <header className="header-section">
         <HeaderTop />
         <HeaderMiddle />
         <HeaderBottom />

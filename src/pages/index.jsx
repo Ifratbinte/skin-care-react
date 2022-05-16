@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import HeaderRes from './component/layout/headerRes'
 import HeaderTP from './component/layout/HeaderTP'
-import ThankYou from './component/thankYou'
+import Home from './component/home'
+// import ThankYou from './component/thankYou'
 
 class Index extends Component {
   render() {
@@ -18,6 +19,7 @@ class Index extends Component {
         {/* main container */}
         <div class="body-container">
           <HeaderTP />
+          <Home />
         </div>
       </div>
     )

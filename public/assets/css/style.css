@@ -1682,8 +1682,10 @@ a.cart-first-child {
 }
 
 .hero-slider .hs-item {
-    height: 720px;
+    background-image: url('../img/hero/bg-2.jpg');
+    height: 100vh;
     background-size: cover !important;
+    background-position: center;
 }
 
 .hero-slider .hs-item .site-btn {

@@ -1,9 +1,14 @@
 import React, { Component } from 'react'
+import HeroSection from './slider/heroCarousel';
+import Category from './category/category'
 
 class Home extends Component {
   render() {
     return (
-      <div>home</div>
+      <div>
+        <HeroSection />
+        <Category />
+      </div>
     )
   }
 }
