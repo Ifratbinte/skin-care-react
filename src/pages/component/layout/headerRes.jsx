@@ -9,179 +9,181 @@ function HeaderRes() {
                     <button data-trigger="#navbar_main" className="d-lg-none p-3 h-100 bar-icon" type="button" id="menubar-collapse"> <i className="fa fa-bars"></i> </button>
                     <div className="logo d-flex justify-content-center">
                         <a href="./index.html" className="site-logo">
-                            <img src="img/logo.png" alt=""/>
+                            <img src="assets/img/logo.png" alt=""/>
                         </a>
                     </div>
                 </div>
             </div>
 
             <div className="col col-sm-6">
-                <div className="row no-gutters">
-                    <div className="offset-md-5 offset-sm-4 col-6  col-sm-4">
-                        <div className="user-lang">
-                            <a href="/" className="ban-bdt top-lang text-right">
-                                <img className="lang-icon" src="img/icons/flag.png" alt=""/>
-                            </a>
-                            <div className="lang-form top-lang-form">
-                                <h5 className="lang-regional ">Regional Settings</h5>
-                                <form action="">
-                                    <div className="form-group">
-                                        <label for="exampleFormControlSelect1">Country/Region</label>
-                                        <select className="form-control" id="country">
-                                    <option value="item1" >Bangladesh</option>
-                                    <option value="item2" >India</option>
-                                    <option value="item3" >Japan</option>
-                                    <option value="item4">US</option>
+                <ul className="action-nav-res d-flex align-items-center justify-content-end">
+                    <li className="nav-list-res">
+                        <a href="/" className="quick-icon-res flag">
+                            <img className="icon" src="assets/img/icons/flag.png" alt=""/>
+                        </a>
+                        <div className="lang-form top-lang-form">
+                            <h5 className="lang-regional ">Regional Settings</h5>
+                            <form action="">
+                                <div className="form-group">
+                                    <label for="exampleFormControlSelect1">Country/Region</label>
+                                    <select className="form-control" id="country">
+                                        <option value="item1" >Bangladesh</option>
+                                        <option value="item2" >India</option>
+                                        <option value="item3" >Japan</option>
+                                        <option value="item4">US</option>
                                     </select>
-                                    </div>
-                                    <div className="form-group">
-                                        <label for="exampleFormControlSelect1">Language</label>
-                                        <select className="form-control" id="language">
+                                </div>
+                                <div className="form-group">
+                                    <label for="exampleFormControlSelect1">Language</label>
+                                    <select className="form-control" id="language">
                                         <option value='1'>Bangla</option>
                                     </select>
-                                    </div>
+                                </div>
 
-                                    <a href="/" className="lang-btn">Save</a>
-                                </form>
-                            </div>
+                                <a href="/" className="lang-btn">Save</a>
+                            </form>
                         </div>
-                    </div>
-                    <div className="col-6 col-sm-4 col-md-3">
-                    {/* Cart mini start */}
-
+                    </li>
+                    <li className="nav-list-res">
                         <div className="cart-box-wrapper">
-                            <a href="/" className="cart-info bar-icon" data-trigger="#navbar_main1" id="menubar-collapse1">
-                                <span>
-                                    <img src="img/cart/cart-2.png" alt=""/>
-                                    <span className="price">৳ &#48;</span>
-                                </span>
-                            </a>
-                            <div className="list-group mobile-offcanvas1 bg-light" id="navbar_main1">
-                                <div className="d-lg-none d-flex justify-content-between p-3">
-                                    <h3 className="shopping-mini-cart">Shopping Cart</h3>
-                                    <a href="/" className="btn-close1 d-inline-block"><i className="fa fa-close close-icon"></i></a>
+                        {/* <a href="/" className="cart-info bar-icon" data-trigger="#navbar_main1" id="menubar-collapse1">
+                            <span>
+                                <img src="assets/img/cart/cart-2.png" alt=""/>
+                                <span className="price">৳ &#48;</span>
+                            </span>
+                        </a> */}
+                        <a className="cart-info" href="cart.html">
+                            <span className="quick-icon-res">
+                                <i className="icon fa fa-shopping-bag"></i>
+                                <span className="quantity">0</span>
+                            </span>
+                        </a>
+                        <div className="list-group mobile-offcanvas1 bg-light" id="navbar_main1">
+                            <div className="d-lg-none d-flex justify-content-between p-3">
+                                <h3 className="shopping-mini-cart">Shopping Cart</h3>
+                                <a href="/" className="btn-close1 d-inline-block"><i className="fa fa-close close-icon"></i></a>
+                            </div>
+
+                            <div className="cart-dropdown">
+                                <div className="cart-scroll-content">
+                                    <div className="single-cart-item">
+                                        <div className="cart-item-content media">
+                                            <img src="assets/img/category/cat7.jpeg" alt=""/>
+                                            <div className="d-flex w-100">
+                                                <div className="cart-p-price media-body">
+                                                    <h6 className="">Whiting cream</h6>
+                                                    <p><span>1 <i className="fa fa-times" aria-hidden="true"></i></span> ৳ 32.00
+                                                    </p>
+                                                    <div className="cart-product-qunty">
+                                                        <ul>
+                                                            <li className="entry value-minus"><i className="fa fa-minus" aria-hidden="true"></i></li>
+                                                            <li className="entry value"><span>1</span></li>
+                                                            <li className="entry value-plus active"><i className="fa fa-plus" aria-hidden="true"></i></li>
+                                                        </ul>
+                                                    </div>
+
+                                                </div>
+                                                <div className="deletebtn"><i className="fa fa-close"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="single-cart-item ">
+                                        <div className="cart-item-content media">
+                                            <img src="assets/img/category/cat7.jpeg" alt="" className=""/>
+                                            <div className="d-flex w-100">
+                                                <div className="cart-p-price media-body">
+                                                    <h6 className="">Whiting cream</h6>
+                                                    <p><span>1 <i className="fa fa-times" aria-hidden="true"></i></span> ৳ 32.00
+                                                    </p>
+                                                    <div className="cart-product-qunty">
+                                                        <ul>
+                                                            <li className="entry value-minus"><i className="fa fa-minus" aria-hidden="true"></i></li>
+                                                            <li className="entry value"><span>1</span></li>
+                                                            <li className="entry value-plus active"><i className="fa fa-plus" aria-hidden="true"></i></li>
+                                                        </ul>
+                                                    </div>
+
+                                                </div>
+                                                <div className="deletebtn"><i className="fa fa-close"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="single-cart-item ">
+                                        <div className="cart-item-content media">
+                                            <img src="assets/img/category/cat7.jpeg" alt="" className=""/>
+                                            <div className="d-flex w-100">
+                                                <div className="cart-p-price media-body">
+                                                    <h6 className="">Whiting cream</h6>
+                                                    <p><span>1 <i className="fa fa-times" aria-hidden="true"></i></span> ৳ 32.00
+                                                    </p>
+                                                    <div className="cart-product-qunty">
+                                                        <ul>
+                                                            <li className="entry value-minus"><i className="fa fa-minus" aria-hidden="true"></i></li>
+                                                            <li className="entry value"><span>1</span></li>
+                                                            <li className="entry value-plus active"><i className="fa fa-plus" aria-hidden="true"></i></li>
+                                                        </ul>
+                                                    </div>
+
+                                                </div>
+                                                <div className="deletebtn"><i className="fa fa-close"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="single-cart-item ">
+                                        <div className="cart-item-content media">
+                                            <img src="assets/img/category/cat7.jpeg" alt="" className=""/>
+                                            <div className="d-flex w-100">
+                                                <div className="cart-p-price media-body">
+                                                    <h6 className="">Whiting cream</h6>
+                                                    <p><span>1 <i className="fa fa-times" aria-hidden="true"></i></span> ৳ 32.00
+                                                    </p>
+                                                    <div className="cart-product-qunty">
+                                                        <ul>
+                                                            <li className="entry value-minus value-minus1"><i className="fa fa-minus" aria-hidden="true"></i></li>
+                                                            <li className="entry value value1"><span>1</span></li>
+                                                            <li className="entry value-plus value-plus1 active"><i className="fa fa-plus" aria-hidden="true"></i></li>
+                                                        </ul>
+                                                    </div>
+
+                                                </div>
+                                                <div className="deletebtn"><i className="fa fa-close"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-
-                                <div className="cart-dropdown">
-                                    <div className="cart-scroll-content">
-                                        <div className="single-cart-item">
-                                            <div className="cart-item-content media">
-                                                <img src="img/category/cat7.jpeg" alt=""/>
-                                                <div className="d-flex w-100">
-                                                    <div className="cart-p-price media-body">
-                                                        <h6 className="">Whiting cream</h6>
-                                                        <p><span>1 <i className="fa fa-times" aria-hidden="true"></i></span> ৳ 32.00
-                                                        </p>
-                                                        <div className="cart-product-qunty">
-                                                            <ul>
-                                                                <li className="entry value-minus"><i className="fa fa-minus" aria-hidden="true"></i></li>
-                                                                <li className="entry value"><span>1</span></li>
-                                                                <li className="entry value-plus active"><i className="fa fa-plus" aria-hidden="true"></i></li>
-                                                            </ul>
-                                                        </div>
-
-                                                    </div>
-                                                    <div className="deletebtn"><i className="fa fa-close"></i></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="single-cart-item ">
-                                            <div className="cart-item-content media">
-                                                <img src="img/category/cat7.jpeg" alt="" className=""/>
-                                                <div className="d-flex w-100">
-                                                    <div className="cart-p-price media-body">
-                                                        <h6 className="">Whiting cream</h6>
-                                                        <p><span>1 <i className="fa fa-times" aria-hidden="true"></i></span> ৳ 32.00
-                                                        </p>
-                                                        <div className="cart-product-qunty">
-                                                            <ul>
-                                                                <li className="entry value-minus"><i className="fa fa-minus" aria-hidden="true"></i></li>
-                                                                <li className="entry value"><span>1</span></li>
-                                                                <li className="entry value-plus active"><i className="fa fa-plus" aria-hidden="true"></i></li>
-                                                            </ul>
-                                                        </div>
-
-                                                    </div>
-                                                    <div className="deletebtn"><i className="fa fa-close"></i></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="single-cart-item ">
-                                            <div className="cart-item-content media">
-                                                <img src="img/category/cat7.jpeg" alt="" className=""/>
-                                                <div className="d-flex w-100">
-                                                    <div className="cart-p-price media-body">
-                                                        <h6 className="">Whiting cream</h6>
-                                                        <p><span>1 <i className="fa fa-times" aria-hidden="true"></i></span> ৳ 32.00
-                                                        </p>
-                                                        <div className="cart-product-qunty">
-                                                            <ul>
-                                                                <li className="entry value-minus"><i className="fa fa-minus" aria-hidden="true"></i></li>
-                                                                <li className="entry value"><span>1</span></li>
-                                                                <li className="entry value-plus active"><i className="fa fa-plus" aria-hidden="true"></i></li>
-                                                            </ul>
-                                                        </div>
-
-                                                    </div>
-                                                    <div className="deletebtn"><i className="fa fa-close"></i></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="single-cart-item ">
-                                            <div className="cart-item-content media">
-                                                <img src="img/category/cat7.jpeg" alt="" className=""/>
-                                                <div className="d-flex w-100">
-                                                    <div className="cart-p-price media-body">
-                                                        <h6 className="">Whiting cream</h6>
-                                                        <p><span>1 <i className="fa fa-times" aria-hidden="true"></i></span> ৳ 32.00
-                                                        </p>
-                                                        <div className="cart-product-qunty">
-                                                            <ul>
-                                                                <li className="entry value-minus value-minus1"><i className="fa fa-minus" aria-hidden="true"></i></li>
-                                                                <li className="entry value value1"><span>1</span></li>
-                                                                <li className="entry value-plus value-plus1 active"><i className="fa fa-plus" aria-hidden="true"></i></li>
-                                                            </ul>
-                                                        </div>
-
-                                                    </div>
-                                                    <div className="deletebtn"><i className="fa fa-close"></i></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="cart-item-amount">
-                                        <table className="table cart-price-amount">
-                                            <tbody className="cart-total-price-info-price">
-                                                <tr className="cart-subtotal">
-                                                    <th>Subtotal</th>
-                                                    <td className="subtotal">
-                                                        <h6>৳ 170</h6>
-                                                    </td>
-                                                </tr>
-                                                <tr className="cart-subtotal">
-                                                    <th>VAT <span>(10%)</span></th>
-                                                    <td className="subtotal">
-                                                        <h6>৳ 17</h6>
-                                                    </td>
-                                                </tr>
-                                                <tr className="cart-total">
-                                                    <th>Total</th>
-                                                    <td className="total">
-                                                        <h6>৳ 187</h6>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    <div className="cart-details-button">
-                                        <a href="cart.html" className="button-round btn-transparent">View cart</a>
-                                        <a href="checkout.html" className="button-round btn-bg">Checkout</a>
-                                    </div>
+                                <div className="cart-item-amount">
+                                    <table className="table cart-price-amount">
+                                        <tbody className="cart-total-price-info-price">
+                                            <tr className="cart-subtotal">
+                                                <th>Subtotal</th>
+                                                <td className="subtotal">
+                                                    <h6>৳ 170</h6>
+                                                </td>
+                                            </tr>
+                                            <tr className="cart-subtotal">
+                                                <th>VAT <span>(10%)</span></th>
+                                                <td className="subtotal">
+                                                    <h6>৳ 17</h6>
+                                                </td>
+                                            </tr>
+                                            <tr className="cart-total">
+                                                <th>Total</th>
+                                                <td className="total">
+                                                    <h6>৳ 187</h6>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div className="cart-details-button">
+                                    <a href="cart.html" className="button-round btn-transparent">View cart</a>
+                                    <a href="checkout.html" className="button-round btn-bg">Checkout</a>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
         <nav id="navbar_main" className="mobile-offcanvas navbar navbar-expand-lg navbar-dark  ">

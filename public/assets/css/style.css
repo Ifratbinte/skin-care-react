@@ -89,7 +89,19 @@ ol {
 .quick-icon img.icon{
     border-radius: 50%;
 }
-
+.nav-list-res{
+    margin-top: 27px;
+    margin-right: 20px;
+}
+.quick-icon-res.flag img {
+    width: 100%;
+    height: 27px;
+    border-radius: 50%;
+}
+.quick-icon-res .icon{
+    font-size: 20px;
+    color: #b9a67a;
+}
 .arrow-icon{
     font-size: 12px;
 }
@@ -401,12 +413,6 @@ a.btn-bg{
     -o-border-radius: 0 !important;
     text-transform: uppercase;
 }
-
-.top-resp-bar .cart-box-wrapper {
-    top: 30px;
-    right: 20px;
-}
-
 .top-resp-bar .price {
     color: #000;
     font-family: 'Lato', sans-serif;
@@ -995,16 +1001,6 @@ a.btn-bg{
 .user-lang:hover .lang-form {
     visibility: visible;
     opacity: 1;
-}
-
-.top-lang {
-    color: #000;
-    display: block;
-    padding-top: 28px;
-}
-
-.top-lang:hover {
-    color: #000;
 }
 
 .top-resp-bar .top-lang-form {
