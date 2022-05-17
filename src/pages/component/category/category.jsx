@@ -24,7 +24,7 @@ const Category = () => {
                         return(
                           <div key={category.id} className="col-lg-2 col-md-3 col-sm-4 col-6">
                             <div className="ta-single-product">
-                              <a href="product.html">
+                              <a href="/product">
                                   <div className="p-4 text-center">
                                       <img className="s-product-img" src={image} alt=""/>
                                       <h5>{name}</h5>
