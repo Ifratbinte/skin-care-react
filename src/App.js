@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HeaderRes from './pages/component/layout/headerRes'
 import HeaderTP from './pages/component/layout/HeaderTP'
 import Home from './pages/component/home'
+import About from './pages/component/about'
 import Product from './pages/component/product'
 import ProductDetails from './pages/component/productDetails'
 import Cart from './pages/component/cart'
@@ -10,6 +11,7 @@ import Checkout from './pages/component/checkout'
 import Contact from './pages/component/contact'
 import Faq from './pages/component/faq'
 import Thanks from './pages/component/thankYou'
+import Footer from './pages/component/layout/footer'
 
 class App extends Component {
   render() {
@@ -26,6 +28,7 @@ class App extends Component {
           <Router>
             <Routes>
                 <Route path = "/" exact element={<Home />}/>
+                <Route path="/about" element={<About/>}/>
                 <Route path = "/product" element={<Product />} />
                 <Route path = "/product-details" element={<ProductDetails />} />
                 <Route path = "/cart" element={<Cart />} />
@@ -35,6 +38,7 @@ class App extends Component {
                 <Route path = "/grettings" element={<Thanks />} />
             </Routes>
           </Router>
+          <Footer />
         </div>
       </div>
     )

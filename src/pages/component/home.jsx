@@ -9,7 +9,7 @@ class Home extends Component {
       <div>
         <HeroSection />
         <Category />
-        <TopLatest />
+        {/* <TopLatest /> */}
       </div>
     )
   }
