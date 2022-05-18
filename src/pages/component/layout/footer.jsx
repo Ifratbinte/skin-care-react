@@ -9,7 +9,7 @@ class Footer extends Component {
                     <div className="row">
                         <div className="col-lg-3 col-md-4 col-sm-4 col-xs-12">
                             <div className="footer-contact">
-                                <img src="img/footer-logo.png" alt=""/>
+                                <img src="assets/img/footer-logo.png" alt=""/>
                                 <p className="mt-2">
                                     Holding #373 Elephant Road, <br/> Dhaka 1205<br/><br/>
                                     <strong>Phone:</strong> +880 1701290756<br>

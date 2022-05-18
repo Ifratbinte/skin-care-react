@@ -8,6 +8,7 @@ import ProductDetails from './pages/component/productDetails'
 import Cart from './pages/component/cart'
 import Checkout from './pages/component/checkout'
 import Contact from './pages/component/contact'
+import Faq from './pages/component/faq'
 import Thanks from './pages/component/thankYou'
 
 class App extends Component {
@@ -30,6 +31,7 @@ class App extends Component {
                 <Route path = "/cart" element={<Cart />} />
                 <Route path = "/checkout" element={<Checkout />} />
                 <Route path = "/contact" element={<Contact />} />
+                <Route path = "/faq" element={<Faq />} />
                 <Route path = "/grettings" element={<Thanks />} />
             </Routes>
           </Router>
