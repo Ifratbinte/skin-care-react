@@ -2027,7 +2027,7 @@ h6 {
     display: block;
     height: 36px;
     width: 120px;
-    border: 1px solid #095c51;
+    border: 1px solid #ddd;
     margin: 5px auto;
     font-size: .8em;
     letter-spacing: 1.5px;
@@ -2039,10 +2039,10 @@ h6 {
 }
 .product-btn:hover{
     background-color: #03312B;
-    border: 2px solid #03312B;
+    border: 1px solid #03312B;
 }
 .product-btn a {
-    color: #03312B;
+    color: #555;
     text-decoration: none;
     letter-spacing: 1px;
 }
@@ -2178,7 +2178,7 @@ a.cart-text {
     margin-left: 4px;
     font-size: 14px;
     font-weight: 700;
-    color: #02332d;
+    color: #555;
     font-family: 'Lato';
 }
 
@@ -2625,6 +2625,7 @@ h3.product-resp-head.text-center {
 
 .single-thumbaa-img img {
     border: 1px solid #b9a67a;
+    height: 120px;
 }
 
 #thumbaa-img ul {

@@ -4,6 +4,7 @@ import HeaderRes from './pages/component/layout/headerRes'
 import HeaderTP from './pages/component/layout/HeaderTP'
 import Home from './pages/component/home'
 import Product from './pages/component/product'
+import ProductDetails from './pages/component/productDetails'
 
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
             <Routes>
                 <Route path = "/" exact element={<Home />}/>
                 <Route path = "/product" element={<Product />} />
+                <Route path = "/product-details" element={<ProductDetails />} />
             </Routes>
           </Router>
         </div>

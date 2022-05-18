@@ -22,7 +22,7 @@ const Category = () => {
                       category.map((elem) => {
                         const { id, image, name } = elem;
                         return(
-                          <div key={category.id} className="col-lg-2 col-md-3 col-sm-4 col-6">
+                          <div key={elem.id} className="col-lg-2 col-md-3 col-sm-4 col-6">
                             <div className="ta-single-product">
                               <a href="/product">
                                   <div className="p-4 text-center">

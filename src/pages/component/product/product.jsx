@@ -1,4 +1,4 @@
-const Category = [
+const Product = [
     {
         id: 1,
         image: 'assets/img/category/cat1.jpg',
@@ -84,4 +84,4 @@ const Category = [
         currentPrice: '৳ 30,00'
     },
 ]
-export default Category;
+export default Product;

@@ -50,8 +50,6 @@ class Footer extends Component {
                 </div>
             </div>
             </div>
-
-
             <div className="footer-bottom">
                 <div className="container">
                     <div className="d-md-flex py-2">
