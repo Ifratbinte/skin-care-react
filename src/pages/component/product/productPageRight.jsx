@@ -33,7 +33,7 @@ const ProductPageRight = () => {
                                                 <div id="dub-arrow">
                                                     <a href="/" className="add-card" data-toggle="modal" data-target="#BuynowModal"><i className="fa fa-envelope" data-toggle="tooltip" data-placement="bottom" title="Connect with us"></i></a>
                                                     <a href="/product-details" className="add-card"><i className="fa fa-eye " data-toggle="tooltip" data-placement="bottom" title="View details"></i></a>
-                                                    <a className="last-icon add-card" href="/"><i className="fa fa-cart-plus" data-toggle="tooltip" data-placement="bottom" title="Add to cart"></i></a>
+                                                    <a  href="/cart" className="last-icon add-card"><i className="fa fa-cart-plus" data-toggle="tooltip" data-placement="bottom" title="Add to cart"></i></a>
                                                 </div>
                                                 <a className="cart-text" href="/">Add to cart</a>
                                             </div>

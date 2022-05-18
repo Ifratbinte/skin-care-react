@@ -35,7 +35,7 @@ function ProductDetailsContent() {
                         <li className="entry value-plus active"><i className="fa fa-plus" aria-hidden="true"></i></li>
                     </ul>
                     <div className="ml-2">
-                        <a href="cart.html" className="button-round btn-transparent btn-small">Add to Cart</a>
+                        <a href="/cart" className="button-round btn-transparent btn-small">Add to Cart</a>
                     </div>
                 </div>
             </div>

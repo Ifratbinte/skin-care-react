@@ -15,7 +15,7 @@ function productSlick() {
     <Slider {...productSlider}>
         
        <div className="product-item">
-            <a href="product-details.html">
+            <a href="/product-details">
                 <div className="pi-pic">
                     <img className="card-product-img" src="assets/img/product/8.jpg" alt=""/>
                 </div>
@@ -31,16 +31,16 @@ function productSlick() {
                     <div className="button product-btn text-center" id="button-cart">
                         <div id="dub-arrow">
                             <a href="/" className="add-card" data-toggle="modal" data-target="#BuynowModal"><i className="fa fa-envelope" title="Connect with us"></i></a>
-                            <a href="product-details.html" className="add-card"><i className="fa fa-eye " title="View details"></i></a>
-                            <a className="last-icon add-card" href="/" ><i className="fa fa-cart-plus" title="Add to cart"></i></a>
+                            <a href="/product-details" className="add-card"><i className="fa fa-eye " title="View details"></i></a>
+                            <a href="/cart" className="last-icon add-card"><i className="fa fa-cart-plus" title="Add to cart"></i></a>
                         </div>
-                        <a className="cart-text" href="/">Add to cart</a>
+                        <a className="cart-text" href="/cart">Add to cart</a>
                     </div>
                 </div>
             </a>
         </div>
         <div className="product-item">
-            <a href="product-details.html">
+            <a href="/product-details">
                 <div className="pi-pic">
                     <img className="card-product-img" src="assets/img/product/9.jpg" alt=""/>
                 </div>
@@ -56,16 +56,16 @@ function productSlick() {
                     <div className="button product-btn text-center" id="button-cart">
                         <div id="dub-arrow">
                             <a href="/" className="add-card" data-toggle="modal" data-target="#BuynowModal"><i className="fa fa-envelope" title="Connect with us"></i></a>
-                            <a href="product-details.html" className="add-card"><i className="fa fa-eye " title="View details"></i></a>
-                            <a className="last-icon add-card" href="/" ><i className="fa fa-cart-plus" title="Add to cart"></i></a>
+                            <a href="/product-details" className="add-card"><i className="fa fa-eye " title="View details"></i></a>
+                            <a href="/cart" className="last-icon add-card"><i className="fa fa-cart-plus" title="Add to cart"></i></a>
                         </div>
-                        <a className="cart-text" href="/">Add to cart</a>
+                        <a className="cart-text" href="/cart">Add to cart</a>
                     </div>
                 </div>
             </a>
         </div>
         <div className="product-item">
-            <a href="product-details.html">
+            <a href="/product-details">
                 <div className="pi-pic">
                     <img className="card-product-img" src="assets/img/product/11.jpg" alt=""/>
                 </div>
@@ -81,16 +81,16 @@ function productSlick() {
                     <div className="button product-btn text-center" id="button-cart">
                         <div id="dub-arrow">
                             <a href="/" className="add-card" data-toggle="modal" data-target="#BuynowModal"><i className="fa fa-envelope" title="Connect with us"></i></a>
-                            <a href="product-details.html" className="add-card"><i className="fa fa-eye " title="View details"></i></a>
-                            <a className="last-icon add-card" href="/" ><i className="fa fa-cart-plus" title="Add to cart"></i></a>
+                            <a href="/product-details" className="add-card"><i className="fa fa-eye " title="View details"></i></a>
+                            <a href="/cart" className="last-icon add-card"><i className="fa fa-cart-plus" title="Add to cart"></i></a>
                         </div>
-                        <a className="cart-text" href="/">Add to cart</a>
+                        <a className="cart-text" href="/cart">Add to cart</a>
                     </div>
                 </div>
             </a>
         </div>
         <div className="product-item">
-            <a href="product-details.html">
+            <a href="/product-details">
                 <div className="pi-pic">
                     <img className="card-product-img" src="assets/img/product/12.jpg" alt=""/>
                 </div>
@@ -106,16 +106,16 @@ function productSlick() {
                     <div className="button product-btn text-center" id="button-cart">
                         <div id="dub-arrow">
                             <a href="/" className="add-card" data-toggle="modal" data-target="#BuynowModal"><i className="fa fa-envelope" title="Connect with us"></i></a>
-                            <a href="product-details.html" className="add-card"><i className="fa fa-eye " title="View details"></i></a>
-                            <a className="last-icon add-card" href="/"><i className="fa fa-cart-plus" title="Add to cart"></i></a>
+                            <a href="/product-details" className="add-card"><i className="fa fa-eye " title="View details"></i></a>
+                            <a href="/cart" className="last-icon add-card"><i className="fa fa-cart-plus" title="Add to cart"></i></a>
                         </div>
-                        <a className="cart-text" href="/">Add to cart</a>
+                        <a className="cart-text" href="/cart">Add to cart</a>
                     </div>
                 </div>
             </a>
         </div>
         <div className="product-item">
-            <a href="product-details.html">
+            <a href="/product-details">
                 <div className="pi-pic">
                     <img className="card-product-img" src="assets/img/product/13.jpg" alt=""/>
                 </div>
@@ -131,10 +131,10 @@ function productSlick() {
                     <div className="button product-btn text-center" id="button-cart">
                         <div id="dub-arrow">
                             <a href="/" className="add-card" data-toggle="modal" data-target="#BuynowModal"><i className="fa fa-envelope" title="Connect with us"></i></a>
-                            <a href="product-details.html" className="add-card "><i className="fa fa-eye " title="View details"></i></a>
-                            <a className="last-icon add-card" href="/" ><i className="fa fa-cart-plus" title="Add to cart"></i></a>
+                            <a href="/product-details" className="add-card "><i className="fa fa-eye " title="View details"></i></a>
+                            <a href="/cart" className="last-icon add-card"><i className="fa fa-cart-plus" title="Add to cart"></i></a>
                         </div>
-                        <a className="cart-text" href="/">Add to cart</a>
+                        <a className="cart-text" href="/cart">Add to cart</a>
                     </div>
                 </div>
             </a>
