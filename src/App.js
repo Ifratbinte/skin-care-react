@@ -7,6 +7,7 @@ import Product from './pages/component/product'
 import ProductDetails from './pages/component/productDetails'
 import Cart from './pages/component/cart'
 import Checkout from './pages/component/checkout'
+import Thanks from './pages/component/thankYou'
 
 class App extends Component {
   render() {
@@ -27,6 +28,7 @@ class App extends Component {
                 <Route path = "/product-details" element={<ProductDetails />} />
                 <Route path = "/cart" element={<Cart />} />
                 <Route path = "/checkout" element={<Checkout />} />
+                <Route path = "/grettings" element={<Thanks />} />
             </Routes>
           </Router>
         </div>

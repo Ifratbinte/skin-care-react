@@ -223,7 +223,7 @@ class Checkout extends Component {
                                       </div>
                                   </div>
                                   <div className="order-btn ">
-                                      <a href="thankyou.html" className="button button-round btn-transparent"> Place Order</a>
+                                      <a href="/grettings" className="button button-round btn-transparent"> Place Order</a>
                                   </div>
                               </div>
                           </div>

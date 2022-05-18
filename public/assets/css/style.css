@@ -3713,7 +3713,7 @@ td.total h6 {
 
 .checkicon i {
     font-size: 2rem;
-    color: green;
+    color: #b9a67a;
     border: 2px solid;
     padding: 12px;
     border-radius: 50%;
@@ -3725,7 +3725,10 @@ td.total h6 {
     color: #555;
     padding: 10px;
 }
-
+.text-link-color{
+    color: #02332d;
+    text-decoration: underline;
+}
 .gretings-text-des p {
     font-size: 19px;
     font-weight: 500;
@@ -3733,7 +3736,7 @@ td.total h6 {
     letter-spacing: 0.5px;
 }
 .gretings-text-des span a {
-    color: #EB9896;
+    color: #02332d;
     font-weight: 700;
 }
 
