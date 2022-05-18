@@ -146,7 +146,7 @@ class Cart extends Component {
                               </tbody>
                           </table>
                           <div class="process-btn">
-                              <a href="checkout.html" className='button button-round btn-transparent'>Proceed to checkout</a>
+                              <a href="/checkout" className='button button-round btn-transparent'>Proceed to checkout</a>
                           </div>
                       </div>
                   </div>

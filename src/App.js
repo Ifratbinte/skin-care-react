@@ -6,6 +6,7 @@ import Home from './pages/component/home'
 import Product from './pages/component/product'
 import ProductDetails from './pages/component/productDetails'
 import Cart from './pages/component/cart'
+import Checkout from './pages/component/checkout'
 
 class App extends Component {
   render() {
@@ -25,6 +26,7 @@ class App extends Component {
                 <Route path = "/product" element={<Product />} />
                 <Route path = "/product-details" element={<ProductDetails />} />
                 <Route path = "/cart" element={<Cart />} />
+                <Route path = "/checkout" element={<Checkout />} />
             </Routes>
           </Router>
         </div>
