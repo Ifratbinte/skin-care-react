@@ -17,11 +17,11 @@ class HeaderTop extends Component {
                     <div className="col-md-6 col-sm-6 col-xs-2">
                         <div className="topbar-menu">
                             <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="product.html">Products</a></li>
-                                <li><a href="contact.html">Contact Us</a></li>
-                                <li><a href="faq.html">Faq</a></li>
-                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/product">Products</a></li>
+                                <li><a href="/contact">Contact Us</a></li>
+                                <li><a href="/faq">Faq</a></li>
+                                <li><a href="/blog">Blog</a></li>
                             </ul>
                         </div>
                     </div>
