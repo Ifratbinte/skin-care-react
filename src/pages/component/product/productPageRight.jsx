@@ -14,7 +14,7 @@ const ProductPageRight = () => {
                     product.map((elem) => {
                         const {id, image, name, oldprice, currentPrice} = elem;
                         return(
-                            <div key={elem.id} className="col-xl-3 col-md-4 col-sm-6">
+                            <div key={id} className="col-xl-3 col-md-4 col-sm-6">
                                 <a href="/product-details">
                                     <div className="product-item">
                                         <div className="pi-pic">

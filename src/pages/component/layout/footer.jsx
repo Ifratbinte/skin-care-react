@@ -10,32 +10,32 @@ class Footer extends Component {
                         <div className="col-lg-3 col-md-4 col-12 footer-contact">
                             <img className='mb-3' src="assets/img/footer-logo.png" alt="" />
                             <p className="mt-2">
-                                Holding #373 Elephant Road, <br/> Dhaka 1205<br/>
-                                <strong>Phone:</strong> +880 1701290756<br></br>
-                                <strong>Email:</strong> info@planethackltd.com<br/>
+                                211 Lakewood Dr, USA <br/>
+                                <strong>Phone:</strong> +00 879 567 0092<br/>
+                                <strong>Email:</strong> info@domain.com<br/>
                             </p>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-sm-4 footer-links">
+                        <div className="col-lg-3 col-md-4 col-sm-4 footer-links">
                                 <h4>Useful Links</h4>
                                 <ul>
-                                    <li><i class="fa fa-chevron-right"></i> <a href="/about">About us</a></li>
-                                    <li><i class="fa fa-chevron-right"></i> <a href="/blog">Blog</a></li>
-                                    <li><i class="fa fa-chevron-right"></i> <a href="/contact">Contact Us</a></li>
-                                    <li><i class="fa fa-chevron-right"></i> <a href="/terms">Terms & Privacy</a></li>
-                                    <li><i class="fa fa-chevron-right"></i> <a href="/faq">FAQ</a></li>
+                                    <li><i className="fa fa-chevron-right"></i> <a href="/about">About us</a></li>
+                                    <li><i className="fa fa-chevron-right"></i> <a href="/blog">Blog</a></li>
+                                    <li><i className="fa fa-chevron-right"></i> <a href="/contact">Contact Us</a></li>
+                                    <li><i className="fa fa-chevron-right"></i> <a href="/terms">Terms & Privacy</a></li>
+                                    <li><i className="fa fa-chevron-right"></i> <a href="/faq">FAQ</a></li>
                                 </ul>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-sm-4 footer-links">
+                        <div className="col-lg-3 col-md-4 col-sm-4 footer-links">
                             <h4>Our Services</h4>
                             <ul>
-                                <li><i class="fa fa-chevron-right"></i> <a href="/">Purlar Managment</a></li>
-                                <li><i class="fa fa-chevron-right"></i> <a href="/">Web Development</a></li>
-                                <li><i class="fa fa-chevron-right"></i> <a href="/">Product Management</a></li>
-                                <li><i class="fa fa-chevron-right"></i> <a href="/">Marketing</a></li>
-                                <li><i class="fa fa-chevron-right"></i> <a href="/">Graphic Design</a></li>
+                                <li><i className="fa fa-chevron-right"></i> <a href="/">Purlar Managment</a></li>
+                                <li><i className="fa fa-chevron-right"></i> <a href="/">Web Development</a></li>
+                                <li><i className="fa fa-chevron-right"></i> <a href="/">Product Management</a></li>
+                                <li><i className="fa fa-chevron-right"></i> <a href="/">Marketing</a></li>
+                                <li><i className="fa fa-chevron-right"></i> <a href="/">Graphic Design</a></li>
                             </ul>
                         </div>
-                        <div class="col-lg-3 col-md-12 col-sm-12 footer-newsletter">
+                        <div className="col-lg-3 col-md-12 col-sm-12 footer-newsletter">
                             <h4>Join Our Newsletter</h4>
                             <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
                             <form action="" method="post">
