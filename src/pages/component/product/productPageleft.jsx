@@ -1,99 +1,26 @@
-import React from 'react'
+import React, {useState} from 'react'
 import PriceRange from './priceRange'
+import ProductCate from '../category/productCate'
+import MyCate from '../category/MyCate';
 
-function productPageleft() {
+const ProductPageleft = () => {
+    const [productCate] = useState(ProductCate);
   return (
     <div className="col-lg-4 col-xl-3 ">
         <div className="left-sidebar p-3 shadow rounded m-3 pb-4">
             <div className="category-part bottom-border padding-btm">
                 <h5 className="section-header">Categories</h5>
                 <div className="list-group mt-4">
-                    <div id="accordion">
-                        <div className="card border-0">
-                            <div className="card-header border-0" id="headingOne">
-
-                                <a className="icon-collapse collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" href="/">
-                            Women fasion
-                        </a>
-
-                            </div>
-                            <div id="collapseOne" className="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                                <div className="card-body p-2">
-                                    <div className="list-group">
-                                        <a href="/" className="list-group-item list-group-item-action border-0"><i
-                                    className="fa fa-angle-right"></i>
-                                Lady bags
-                            </a>
-                                    </div>
-                                    <div className="list-group">
-                                        <a href="/" className="list-group-item list-group-item-action border-0"><i
-                                    className="fa fa-angle-right"></i>
-                                Lady bags
-                            </a>
-                                    </div>
-                                    <div className="list-group">
-                                        <div id="subAccordion1">
-                                            <div className="card border-0">
-                                                <div className="card-header sub-card-headerOne border-0" id="subHeadingOne">
-
-                                                    <a className="icon-collapse-inside collapsed" data-toggle="collapse" data-target="#subCollapseOne" aria-expanded="true" aria-controls="subCollapseOne" href="/"><i className="fa fa-angle-right"></i>
-                                                Lady bags
-                                            </a>
-                                                </div>
-                                                <div id="subCollapseOne" className="collapse" aria-labelledby="subHeadingOne" data-parent="#subAccordion1">
-                                                    <div className="card-body p-2">
-                                                        <div className="list-group">
-                                                            <a href="/" className="list-group-item list-group-item-action border-0"><i
-                                                            className="fa fa-angle-right"></i>
-                                                        Small bags
-                                                    </a>
-                                                        </div>
-
-                                                        <div className="list-group">
-                                                            <a href="/" className="list-group-item list-group-item-action border-0"><i
-                                                            className="fa fa-angle-right"></i>
-                                                        Small bags
-                                                    </a>
-                                                        </div>
-
-                                                        <div className="list-group">
-                                                            <a href="/" className="list-group-item list-group-item-action border-0"><i
-                                                            className="fa fa-angle-right"></i>
-                                                        Small bags
-                                                    </a>
-                                                        </div>
-
-                                                        <div className="list-group">
-                                                            <a href="/" className="list-group-item list-group-item-action border-0"><i
-                                                            className="fa fa-angle-right"></i>
-                                                        Small bags
-                                                    </a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="list-group">
-                                    <a href="/" className="list-group-item list-group-item-action border-0"><i
-                                    className="fa fa-angle-right"></i>
-                                Lady bags
-                            </a>
-                                </div>
-                                <div className="list-group">
-                                    <a href="/" className="list-group-item list-group-item-action border-0"><i
-                                    className="fa fa-angle-right"></i>
-                                Lady bags
-                            </a>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
+                    {
+                        productCate.map((currentElem) => {
+                            const {id} = currentElem
+                            return <MyCate key={id} {...currentElem}/>
+                        })
+                    }
+                    {/*  */}
 
 
-                    <div id="accordion1">
+                    {/* <div id="accordion1">
                         <div className="card border-0">
                             <div className="card-header border-0" id="headingTwo">
 
@@ -424,7 +351,7 @@ function productPageleft() {
 
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <div className="price-range-slider bottom-border pb-5 mt-2">
@@ -474,4 +401,4 @@ function productPageleft() {
     </div>
   )
 }
-export default productPageleft;
+export default ProductPageleft;
