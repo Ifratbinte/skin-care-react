@@ -82,6 +82,9 @@ ol {
     width: 25px;
     border-radius: 50%;
 }
+.icon-collapse{
+    color: #b9a67a;
+}
 .quick-icon .icon{
     font-size: 20px;
     color: #b9a67a;
@@ -680,42 +683,6 @@ a.btn-bg{
 
 /* Categoty Page Start */
 
-.icon-collapse.collapsed:after {
-    font-family: FontAwesome;
-    content: "\f067";
-    color: #03312B;
-    float: right;
-}
-
-.icon-collapse:after {
-    font-family: FontAwesome;
-    content: "\f068";
-    color: #03312B;
-    float: right;
-}
-
-.icon-collapse-inside.collapsed::after {
-    font-family: FontAwesome;
-    content: "\f067";
-    color: #03312B;
-    float: right;
-}
-
-.icon-collapse-inside::after {
-    font-family: FontAwesome;
-    content: "\f068";
-    color: #03312B;
-    float: right;
-}
-
-.icon-collapse,
-.icon-collapse-inside {
-    width: 100%;
-    padding: .75rem 1.25rem;
-    display: block;
-    color: #000;
-}
-
 .sub-card-headerOne {
     background-color: #fff;
 }
@@ -723,64 +690,6 @@ a.btn-bg{
 .bottom-border {
     border-bottom: 3px double #f0f0f0;
 }
-
-/* Price range */
-.price-range-slider {
-    width: 100%;
-}
-
-.price-range-slider .range-value {
-    margin: 0;
-}
-
-.price-range-slider .range-value input {
-    width: 100%;
-    background: none;
-    color: #000;
-    font-size: 16px;
-    font-weight: initial;
-    box-shadow: none;
-    border: none;
-    margin: 10px 0;
-}
-
-.range-bar {
-    border: none;
-    background: #000;
-    height: 3px;
-    width: 96%;
-    margin-left: 8px;
-}
-
-.range-bar .ui-slider-range {
-    background: #b9a67a;
-}
-
-.range-bar .ui-slider-handle span {
-    background: #786453;
-}
-
-.range-bar .ui-slider-handle {
-    border-radius: 25px;
-    background: #fff;
-    border: 2px solid #28514C;
-    height: 20px;
-    width: 20px;
-    top: -0.60em;
-    cursor: pointer;
-}
-
-.range-bar .ui-slider-handle:focus {
-    outline: none;
-}
-
-.custom-control-input:checked~.custom-control-label::before {
-    border-color: #03312B;
-    background: #03312B;
-    ;
-}
-
-/*--- /.price-range-slider ---*/
 
 .category-page-area .top-product-header {
     font-size: 30px;
@@ -885,7 +794,6 @@ a.btn-bg{
 .category-page-area .card-header,
 .category-page-area .card-body,
 .category-page-area .list-group-item {
-    background-image: linear-gradient(to right top, #f0f0f0, #eeeeee, #ecedec, #ebebeb, #e9e9e9);
     position: relative;
     z-index: 1;
     overflow: hidden;
@@ -934,9 +842,11 @@ a.btn-bg{
 .category-page-area .list-group-item:hover {
     color: #02332d;
 }
-
-.price-range-slider .amount {
-    font-family: 'Poppins', sans-serif;
+.category-list{
+    padding: .75rem 1.25rem;
+    color: #000;
+    font-weight: 400;
+    cursor: pointer;
 }
 
 .category-page-area .sub-card-headerOne {

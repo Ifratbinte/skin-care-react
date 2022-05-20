@@ -1,11 +1,11 @@
 const ProductCate = [
     {
         id : 1,
-        category : 'Women fasion'
+        category : 'Women fashion'
     },
     {
         id : 2,
-        category : 'Men fasion'
+        category : 'Men fashion'
     },
     {
         id : 3,

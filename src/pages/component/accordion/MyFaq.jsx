@@ -8,7 +8,7 @@ const MyFaq = ({question, answer}) => {
         <div className="card accordion-card">
             <div className="card-header">
                 <button className="btn border-0" onClick={() => setShow(!show)}>
-                    {show? <i className="icon icon-minus fa fa-minus"></i> : <i className="icon icon-plus fa fa-plus"></i> }
+                    {show? <i className="icon-collapse icon-minus fa fa-minus"></i> : <i className="icon-collapse icon-plus fa fa-plus"></i> }
                     <span>{question}</span>
                 </button>
             </div>

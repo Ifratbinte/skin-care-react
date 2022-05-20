@@ -6,7 +6,7 @@ const ProductPageRight = () => {
     const [product] = useState(Product);
 
   return (
-    <div className=" col-lg-8 col-xl-9">
+    <div className=" col-md-8 col-xl-9">
         <div className="right-part my-2 rounded">
             <h1 className="products-resp d-lg-none d-md-block text-center py-3">Products</h1>
             <div className="row ">
@@ -14,7 +14,7 @@ const ProductPageRight = () => {
                     product.map((elem) => {
                         const {id, image, name, oldprice, currentPrice} = elem;
                         return(
-                            <div key={id} className="col-xl-3 col-md-4 col-sm-6">
+                            <div key={id} className="col-xl-3 col-sm-6">
                                 <a href="/product-details">
                                     <div className="product-item">
                                         <div className="pi-pic">

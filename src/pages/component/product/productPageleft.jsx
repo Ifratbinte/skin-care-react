@@ -1,12 +1,12 @@
 import React, {useState} from 'react'
-import PriceRange from './priceRange'
+import PriceRange from '../reactActions/priceRange'
 import ProductCate from '../category/productCate'
 import MyCate from '../category/MyCate';
 
 const ProductPageleft = () => {
     const [productCate] = useState(ProductCate);
   return (
-    <div className="col-lg-4 col-xl-3 ">
+    <div className="col-md-4 col-xl-3">
         <div className="left-sidebar p-3 shadow rounded m-3 pb-4">
             <div className="category-part bottom-border padding-btm">
                 <h5 className="section-header">Categories</h5>
