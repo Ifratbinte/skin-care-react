@@ -427,12 +427,12 @@ function productPageleft() {
                     </div>
                 </div>
             </div>
-            <div className="price-range-slider bottom-border pb-5 mt-4">
+            <div className="price-range-slider bottom-border pb-5 mt-2">
                 <h5 className="section-header">Price Range</h5>
                 <PriceRange />
             </div>
 
-            <div className="size bottom-border pb-4 mt-4">
+            <div className="size bottom-border pb-4 mt-2">
                 <h5 className="pb-3 section-header">Size</h5>
                 <div className="custom-control custom-radio">
                     <input type="radio" id="customRadio1" name="customRadio" className="custom-control-input"/>
@@ -448,7 +448,7 @@ function productPageleft() {
                 </div>
             </div>
 
-            <div className="brand bottom-border pb-4 mt-4">
+            <div className="brand bottom-border pb-4 mt-2">
                 <h5 className="pb-3 section-header">Brand</h5>
                 <div className="custom-control custom-checkbox mr-sm-2">
                     <input type="checkbox" className="custom-control-input" id="customControlAutosizing"/>
@@ -470,116 +470,8 @@ function productPageleft() {
                     <label className="custom-control-label" htmlFor="customControlAutosizing3">Vivo</label>
                 </div>
             </div>
-            <div className="left-bottom-part pt-4">
-                <h5 className="section-header pb-4">Hot deals</h5>
-                <div className="hot-products owl-carousel">
-                    <div className="product-item ">
-                        <a href="product-details.html">
-                            <div className="pi-pic">
-                                <img className="card-product-img" src="./assets/img/product/7.jpg" alt=""/>
-                            </div>
-                            <div className="product-info">
-                                <div className="pi-text text-center">
-                                    <h5>Lorem ipsum dolor sit</h5>
-                                </div>
-
-                                <div className="p-box">
-                                    <span className="ta-old-price">৳ 35,00</span>
-                                    <span className="ta-current-price">৳ 30,00</span>
-                                </div>
-                                <div className="button product-btn text-center" id="button-cart">
-                                    <div id="dub-arrow">
-                                        <a href="/" className="add-card " data-toggle="modal" data-target="#BuynowModal"><i className="fa fa-envelope" data-toggle="tooltip" data-placement="bottom" title="Connect with us"></i></a>
-                                        <a href="product-details.html" className="add-card "><i className="fa fa-eye " data-toggle="tooltip" data-placement="bottom" title="View details"></i></a>
-                                        <a className="last-icon add-card" href="/"><i className="fa fa-cart-plus" data-toggle="tooltip" data-placement="bottom" title="Add to cart"></i></a>
-                                    </div>
-                                    <a className="cart-text" href="/">Add to cart</a>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div className="product-item ">
-                        <a href="product-details.html">
-                            <div className="pi-pic">
-                                <img className="card-product-img" src="./assets/img/product/7.jpg" alt=""/>
-                            </div>
-                            <div className="product-info">
-                                <div className="pi-text text-center">
-                                    <h5>Lorem ipsum dolor sit</h5>
-                                </div>
-
-                                <div className="p-box">
-                                    <span className="ta-old-price">৳ 35,00</span>
-                                    <span className="ta-current-price">৳ 30,00</span>
-                                </div>
-                                <div className="button product-btn text-center" id="button-cart">
-                                    <div id="dub-arrow">
-                                        <a href="/" className="add-card" data-toggle="modal" data-target="#BuynowModal"><i className="fa fa-envelope" data-toggle="tooltip" data-placement="bottom" title="Connect with us"></i></a>
-                                        <a href="product-details.html" className="add-card"><i className="fa fa-eye " data-toggle="tooltip" data-placement="bottom" title="View details"></i></a>
-                                        <a className="last-icon add-card" href="/"><i className="fa fa-cart-plus" data-toggle="tooltip" data-placement="bottom" title="Add to cart"></i></a>
-                                    </div>
-                                    <a className="cart-text" href="/">Add to cart</a>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div className="product-item ">
-                        <a href="product-details.html">
-                            <div className="pi-pic">
-                                <img className="card-product-img" src="./assets/img/product/7.jpg" alt=""/>
-                            </div>
-                            <div className="product-info">
-                                <div className="pi-text text-center">
-                                    <h5>Lorem ipsum dolor sit</h5>
-                                </div>
-
-                                <div className="p-box">
-                                    <span className="ta-old-price">৳ 35,00</span>
-                                    <span className="ta-current-price">৳ 30,00</span>
-                                </div>
-                                <div className="button product-btn text-center" id="button-cart">
-                                    <div id="dub-arrow">
-                                        <a href="/" className="add-card " data-toggle="modal" data-target="#BuynowModal"><i className="fa fa-envelope" data-toggle="tooltip" data-placement="bottom" title="Connect with us"></i></a>
-                                        <a href="product-details.html" className="add-card "><i className="fa fa-eye " data-toggle="tooltip" data-placement="bottom" title="View details"></i></a>
-                                        <a className="last-icon add-card" href="/"><i className="fa fa-cart-plus" data-toggle="tooltip" data-placement="bottom" title="Add to cart"></i></a>
-                                    </div>
-                                    <a className="cart-text" href="/">Add to cart</a>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div className="product-item ">
-                        <a href="product-details.html">
-                            <div className="pi-pic">
-                                <img className="card-product-img" src="./assets/img/product/7.jpg" alt=""/>
-                            </div>
-                            <div className="product-info">
-                                <div className="pi-text text-center">
-                                    <h5>Lorem ipsum dolor sit</h5>
-                                </div>
-
-                                <div className="p-box">
-                                    <span className="ta-old-price">৳ 35,00</span>
-                                    <span className="ta-current-price">৳ 30,00</span>
-                                </div>
-                                <div className="button product-btn text-center" id="button-cart">
-                                    <div id="dub-arrow">
-                                        <a href="/" className="add-card " data-toggle="modal" data-target="#BuynowModal"><i className="fa fa-envelope" data-toggle="tooltip" data-placement="bottom" title="Connect with us"></i></a>
-                                        <a href="product-details.html" className="add-card "><i className="fa fa-eye " data-toggle="tooltip" data-placement="bottom" title="View details"></i></a>
-                                        <a className="last-icon add-card" href="/"><i className="fa fa-cart-plus" data-toggle="tooltip" data-placement="bottom" title="Add to cart"></i></a>
-                                    </div>
-                                    <a className="cart-text" href="/">Add to cart</a>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
   )
 }
-export default productPageleft
+export default productPageleft;
