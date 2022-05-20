@@ -102,7 +102,7 @@ class Cart extends Component {
                           <div class="col-lg-5 col-md-6 col-12">
                               <div class="cart-bottom-button">
                                   <div class="continue-shopping ">
-                                      <a href="product.html" class="button button-round btn-bg">Continue Shopping</a>
+                                      <a href="/product" class="button button-round btn-bg">Continue Shopping</a>
                                   </div>
                               </div>
                           </div>

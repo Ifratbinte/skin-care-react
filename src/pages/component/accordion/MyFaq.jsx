@@ -5,14 +5,14 @@ const MyFaq = ({question, answer}) => {
   return (
     
     <>
-        <div class="card accordion-card">
-            <div class="card-header">
-                <button class="btn border-0" onClick={() => setShow(!show)}>
+        <div className="card accordion-card">
+            <div className="card-header">
+                <button className="btn border-0" onClick={() => setShow(!show)}>
                     {show? <i className="icon icon-minus fa fa-minus"></i> : <i className="icon icon-plus fa fa-plus"></i> }
                     <span>{question}</span>
                 </button>
             </div>
-            {show && <div class="card-body collapse-content">
+            {show && <div className="card-body collapse-content">
                 <p className='mb-0'>{answer}</p>
             </div>}
         </div>

@@ -15,7 +15,7 @@ function Slick() {
     return (
         <Slider {...slickSlider}>
             <div className="single-ta-scroll-slider">
-                <a href="product-details.html">
+                <a href="/product-details">
                     <div className="media">
                         <img src="assets/img/category/cat2.png" alt="" className=""/>
                         <div className="media-body align-self-center">
@@ -25,7 +25,7 @@ function Slick() {
                 </a>
             </div>
             <div className="single-ta-scroll-slider">
-                <a href="product-details.html">
+                <a href="/product-details">
                     <div className="media">
                         <img src="assets/img/category/cat8.jpg" alt="" className=""/>
                         <div className="media-body align-self-center">
@@ -35,7 +35,7 @@ function Slick() {
                 </a>
             </div>
             <div className="single-ta-scroll-slider">
-                <a href="product-details.html">
+                <a href="/product-details">
                     <div className="media">
                         <img src="assets/img/category/cat9.jpg" alt="" className=""/>
                         <div className="media-body align-self-center">
@@ -45,7 +45,7 @@ function Slick() {
                 </a>
             </div>
             <div className="single-ta-scroll-slider">
-                <a href="product-details.html">
+                <a href="/product-details">
                     <div className="media">
                         <img src="assets/img/category/cat10.jpeg" alt="" className=""/>
                         <div className="media-body align-self-center">
@@ -55,7 +55,7 @@ function Slick() {
                 </a>
             </div>
             <div className="single-ta-scroll-slider">
-                <a href="product-details.html">
+                <a href="/product-details">
                     <div className="media">
                         <img src="assets/img/category/cat11.jpg" alt="" className=""/>
                         <div className="media-body align-self-center">
@@ -65,7 +65,7 @@ function Slick() {
                 </a>
             </div>
             <div className="single-ta-scroll-slider">
-                <a href="product-details.html">
+                <a href="/product-details">
                     <div className="media">
                         <img src="assets/img/category/cat12.jpg" alt="" className=""/>
                         <div className="media-body align-self-center">
@@ -75,7 +75,7 @@ function Slick() {
                 </a>
             </div>
             <div className="single-ta-scroll-slider">
-                <a href="product-details.html">
+                <a href="/product-details">
                     <div className="media">
                         <img src="assets/img/category/cat14.jpg" alt="" className=""/>
                         <div className="media-body align-self-center">
@@ -85,7 +85,7 @@ function Slick() {
                 </a>
             </div>
             <div className="single-ta-scroll-slider">
-                <a href="product-details.html">
+                <a href="/product-details">
                     <div className="media">
                         <img src="assets/img/category/cat4.jpg" alt="" className=""/>
                         <div className="media-body align-self-center">
