@@ -146,7 +146,17 @@ ol {
     -webkit-border-radius: 23px;
     cursor: pointer;
 }
-
+.button-sqr{
+    padding: 6px 20px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.button-sqr:hover{
+    color: #fff;
+    background: #03312B;
+    font-size: 16px;
+}
 a.btn-transparent{
     color: #03312B;
     background: transparent;
@@ -3010,7 +3020,7 @@ button.btn-close {
     font-size: 25px;
 }
 .width-30{
-    width: 40%
+    width: 30%
 }
 
 /* Product Details page end */
@@ -3031,24 +3041,6 @@ h3.checkout-resp-head {
     position: relative;
 }
 
-input.input-coupon {
-    width: 100% !important;
-}
-
-.checkout-content .content-btn,
-.checkout-content a {
-    font-size: 16px;
-    display: block;
-    text-align: center;
-}
-
-.checkout-content .content-btn,
-.checkout-content span {
-    color: #000;
-    font-weight: 600;
-    font-family: 'Lato';
-    text-decoration: underline;
-}
 
 .collapse-down-area {
     margin-top: 1.5rem;
@@ -3056,11 +3048,6 @@ input.input-coupon {
 
 .collapse-down-area-content {
     border: 1px solid #b9a67a;
-}
-
-.checkout-info p {
-    font-size: 15px;
-    color: #777;
 }
 
 .checkout-form h4 {
@@ -3094,12 +3081,6 @@ input.input-coupon {
     margin-bottom: 25px;
     padding-left: 15px;
     border-radius: 22px;
-}
-
-.checkout-info input {
-    border: 1px solid #b9a67a;
-    border-radius: 20px;
-    padding: 7px 15px;
 }
 
 .billing-information input {
@@ -3137,7 +3118,14 @@ input.input-coupon {
     background: #03312B;
     ;
 }
-
+.checkout-submit-form h5{
+    text-align: center;
+    margin: 15px 0;
+}
+.checkout-submit-form a{
+    color: #03312B;
+    text-decoration: underline;
+}
 .billing-information {
     border: 1px solid;
     padding: 15px 20px;
@@ -3193,10 +3181,6 @@ p.checkout-info-msg {
     padding-bottom: 80px;
     color: #252525;
     font-size: 16px;
-}
-
-.checkout-content {
-    margin-bottom: 20px;
 }
 
 .place-order {
@@ -3377,10 +3361,6 @@ p.checkout-info-msg {
 
 .billing-section {
     margin-top: 4rem;
-}
-
-.checkout-gift-address {
-    margin: 24px 0px;
 }
 
 a.content-btn {
@@ -4582,4 +4562,14 @@ form.form-recuvery {
 
 #cartId{
     display: none;
+}
+
+/* price range */
+.MuiSlider-root{
+    color: #02332d !important;
+}
+.price-range{
+    margin: auto;
+    display: block;
+    width: fit-content
 }

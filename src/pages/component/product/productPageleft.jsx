@@ -1,4 +1,5 @@
 import React from 'react'
+import PriceRange from './priceRange'
 
 function productPageleft() {
   return (
@@ -428,10 +429,7 @@ function productPageleft() {
             </div>
             <div className="price-range-slider bottom-border pb-5 mt-4">
                 <h5 className="section-header">Price Range</h5>
-                <p className="range-value">
-                    <input className="amount" type="text" id="amount"/>
-                </p>
-                <div id="slider-range" className="range-bar"></div>
+                <PriceRange />
             </div>
 
             <div className="size bottom-border pb-4 mt-4">

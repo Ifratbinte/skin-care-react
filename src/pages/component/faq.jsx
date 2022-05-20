@@ -3,7 +3,7 @@ import { Question } from './accordion/faqAC';
 import MyFaq from './accordion/MyFaq';
 
 const Faq = () => {
-    const [data, setData] = useState(Question);
+    const [data] = useState(Question);
   return (
     <>
         <section className="terms-condition-area">

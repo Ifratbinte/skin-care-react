@@ -1,79 +1,62 @@
-import React, { Component } from 'react'
 
-class Checkout extends Component {
-  render() {
+import React, {useState} from 'react'
+
+const Checkout = () => {
+    const [show, setShow] = useState(false);
+    
     return (
       <section className="checkout-section spad">
           <div className="container">
               <h3 className="d-block checkout-resp-head text-center pb-4">checkout</h3>
-              <form action="/" className="checkout-form">
+                <div className="checkout-form">
                   <div className="row">
                       <div className="col-lg-6">
-                          <div className="checkout-content">
-                              <a className="content-btn" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Returning Customer? <span> Click here to login</span></a>
-                              <div className="row">
-                                  <div className="col">
-                                      <div className="collapse collapse-down-area" id="multiCollapseExample1">
-                                          <div className="card card-body collapse-down-area-content">
-                                              <div className="checkout-info">
-                                                  <p>If you have shopped with us before, please enter your details in the boxes below. If you are a new customer please proceed to the Billing &amp; Shipping section.</p>
-                                                  <form action="#">
-                                                      <div className="row">
-                                                          <div className="col-lg-12 form-input-field">
-                                                              <label htmlFor="username">Username or Email<span>*</span></label>
-                                                              <input type="text" className="form-control" required/>
-                                                          </div>
-
-                                                          <div className="col-lg-12 form-input-field">
-                                                              <label htmlFor="pass">Password<span>*</span></label>
-                                                              <input type="password" className="form-control" required/>
-                                                          </div>
-                                                          <div className="col-lg-12">
-                                                              <a href="/" className="button ckeckout-login-button">Submit</a>
-                                                          </div>
-                                                          <div className="col -6 col-sm-6 login-varification">
-                                                              <div className="custom-control custom-checkbox">
-                                                                  <input type="checkbox" className="custom-control-input" id="defaultUnchecked3"/>
-                                                                  <label className="custom-control-label" htmlFor="defaultUnchecked3"> Remembar Me </label>
-                                                              </div>
-                                                          </div>
-                                                          <div className="col -6 col-sm-6 login-varification">
-                                                              <a href="/">Forget Password?</a>
-                                                          </div>
-                                                      </div>
-                                                  </form>
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
+                          <div className="checkout-submit-form">
+                                <h5>Returning Customer? <a href="/" onClick={() => setShow(!show)}> Click here to login</a></h5>
+                                {show && <div className="card card-body">
+                                    <p>If you have shopped with us before, please enter your details in the boxes below. If you are a new customer please proceed to the Billing &amp; Shipping section.</p>
+                                    <form>
+                                        <div className="form-group">
+                                            <label htmlFor="email">Email address<span>*</span></label>
+                                            <input type="email" className="form-control" id="email" aria-describedby="emailHelp"/>
+                                        </div>
+                                        <div className="form-group">
+                                            <label htmlFor="password">Password<span>*</span></label>
+                                            <input type="password" className="form-control" id="password"/>
+                                        </div>
+                                        <div className="form-group form-check">
+                                            <input type="checkbox" className="form-check-input" id="checkbox"/>
+                                            <label className="form-check-label" htmlFor="checkbox">Remembar Me</label>
+                                        </div>
+                                        <button type="submit" className="button button-sqr btn-transparent">Submit</button>
+                                    </form>
+                                </div>}
                           </div>
 
-                          <div className="checkout-content checkout-info coupon-info">
-                              <a className="content-btn" data-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Have a coupon?  <span> Click here to enter your code</span></a>
-                              <div className="collapse collapse-down-area  checkout-info" id="multiCollapseExample2">
-                                  <div className="card card-body collapse-down-area-content">
-                                      <form action="#">
-                                          <input placeholder="Coupon code " type="text " className="input-coupon"/>
-                                          <a href="/"><button className="copponBtn-round" type="button"> Apply </button></a>
-                                      </form>
-                                  </div>
-                              </div>
+                          <div className="checkout-submit-form">
+                              <h5>Have a coupon? <a href="/" onClick={() => setShow(!show)}> Click here to enter your code</a></h5>
+                              {show && <div className="card card-body">
+                                    <form action="#">
+                                        <input placeholder="Coupon code" type="text" className="form-control"/>
+                                        <button type="submit" className="button button-sqr btn-transparent mt-4">Apply</button>
+                                    </form>
+                                </div>
+                                } 
                           </div>
                           <div className="billing-section">
                               <h4>Biiling Details</h4>
                               <div className="billing-information">
                                   <div className="row">
-                                      <div className="col-lg-6">
+                                      <div className="col-md-6">
                                           <label htmlFor="first">First Name<span>*</span></label>
                                           <input type="text" id="fir"/>
                                       </div>
-                                      <div className="col-lg-6">
+                                      <div className="col-md-6">
                                           <label htmlFor="last">Last Name<span>*</span></label>
                                           <input type="text" id="last"/>
                                       </div>
-                                      <div className="col-lg-12">
-                                          <label htmlFor="district">District<span>*</span></label><br/>
+                                      <div className="col-md-6">
+                                          <label htmlFor="district">District<span>*</span></label>
                                           <select id="district">
                                             <option className="custom-select" value="dhaka" selected>Dhaka</option>
                                             <option value="ctg">Chittagong</option>
@@ -84,27 +67,27 @@ class Checkout extends Component {
                                             <option value="chandpur">Chandpur</option>
                                         </select>
                                       </div>
-                                      <div className="col-lg-12">
+                                      <div className="col-md-6">
                                           <label htmlFor="cun">Country<span>*</span></label>
                                           <input type="text" id="cun"/>
                                       </div>
-                                      <div className="col-lg-12">
+                                      <div className="col-md-6">
                                           <label htmlFor="street">Street Address<span>*</span></label>
                                           <input type="text" id="street" placeholder="House number and steet name" className="street-first"/>
                                       </div>
-                                      <div className="col-lg-12">
+                                      <div className="col-md-6">
                                           <label htmlFor="email">Email Address (Optional)</label>
                                           <input type="text" id="email"/>
                                       </div>
-                                      <div className="col-lg-12">
+                                      <div className="col-md-6">
                                           <label htmlFor="phone">Phone<span>*</span></label>
                                           <input type="text" id="phone"/>
                                       </div>
-                                      <div className="col-lg-6">
+                                      <div className="col-md-6">
                                           <label htmlFor="town">Town / City<span>*</span></label>
                                           <input type="text" id="town"/>
                                       </div>
-                                      <div className="col-lg-6">
+                                      <div className="col-md-6">
                                           <label htmlFor="zip">Postcode / ZIP (optional)</label>
                                           <input type="text" id="zip"/>
                                       </div>
@@ -113,31 +96,8 @@ class Checkout extends Component {
                                       </div>
                                   </div>
                               </div>
-                          </div>
-
-                          <div className="checkout-gift-address d-none d-lg-block">
-                              <input type="checkbox" className="custom-control-input" id="defaultUnchecked"/>
-                              <a className="content-btn" data-toggle="collapse" href="#multiCollapseExamplegift" role="button" aria-expanded="false" aria-controls="multiCollapseExamplegift">Create an account? <span>Click Here</span></a>
-                              <div className="row">
-                                  <div className="col">
-                                      <div className="collapse gift-collapse-down-area" id="multiCollapseExamplegift">
-                                          <div className="card card-body collapse-down-area-content">
-                                              <div className="checkout-account-info">
-                                                  <form action="#">
-                                                      <label htmlFor="pass">Create account password<span>*</span></label>
-                                                      <input type="password" className="form-control" required/>
-                                                      <a href="/"><button className="createBtn-round" type="button "> Create</button></a>
-                                                  </form>
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                          <div className="button-checkoutpage d-none d-lg-block">
-                              <a href="/cart" className="button">Back to cart</a>
-                          </div>
-                      </div>
+                            </div>
+                        </div>
 
                       <div className="col-lg-6">
                           <div className="place-order ">
@@ -251,10 +211,9 @@ class Checkout extends Component {
                   <div className="button-checkoutpage mt-4 d-lg-none">
                       <a href="/cart" className="button">Back to cart</a>
                   </div>
-              </form>
+              </div>
           </div>
       </section>
     )
-  }
 }
 export default Checkout;
