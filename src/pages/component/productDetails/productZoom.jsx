@@ -14,18 +14,18 @@ function ProductZoom() {
                         </div>
                         <div className="row thumb-img pb-sm-4" id="thumbaa-img">
                             <div className="col-lg-4 col-sm-2 col-2 offset-3 offset-sm-3 offset-lg-0 single-thumbaa-img">
-                                <a href="/" data-image="assets/img/single-product/data1.jpg" data-zoom-image="img/single-product/datazoom1.jpg">
-                                    <img className="img-fluid" src="img/single-product/thumb1.jpg" alt='' />
+                                <a href="/" data-image="assets/img/single-product/data1.jpg" data-zoom-image="assets/img/single-product/datazoom1.jpg">
+                                    <img className="img-fluid" src="assets/img/single-product/thumb1.jpg" alt='' />
                                 </a>
                             </div>
                             <div className="col-lg-4 col-sm-2 col-2 single-thumbaa-img">
-                                <a href="/" data-image="assets/img/single-product/data2.jpg" data-zoom-image="img/single-product/datazoom2.jpg">
-                                    <img className="img-fluid" src="img/single-product/thumb2.jpg" alt='' />
+                                <a href="/" data-image="assets/img/single-product/data2.jpg" data-zoom-image="assets/img/single-product/datazoom2.jpg">
+                                    <img className="img-fluid" src="assets/img/single-product/thumb2.jpg" alt='' />
                                 </a>
                             </div>
                             <div className="col-lg-4 col-sm-2 col-2 single-thumbaa-img">
-                                <a href="/" data-image="assets/img/single-product/data3.jpg" data-zoom-image="img/single-product/datazoom3.jpg">
-                                    <img className="img-fluid" src="img/single-product/thumb3.jpg" alt='' />
+                                <a href="/" data-image="assets/img/single-product/data3.jpg" data-zoom-image="assets/img/single-product/datazoom3.jpg">
+                                    <img className="img-fluid" src="assets/img/single-product/thumb3.jpg" alt='' />
                                 </a>
                             </div>
                         </div>

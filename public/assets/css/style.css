@@ -2564,7 +2564,7 @@ h3.product-resp-head.text-center {
 .zoom-img-default {
     z-index: -1;
     width: 450px;
-    height: 450px;
+    height: 447px;
 }
 
 #thumbaa-img ul li img {
@@ -4479,3 +4479,90 @@ form.form-recuvery {
     display: block;
     width: fit-content
 }
+
+/* loadmore */
+.content {
+    height: 100px;
+    width: 45%;
+    color: #fff;
+    font-size: 24px;
+    line-height: 100px; /* centering text just for view */
+    text-align: center;
+    background-color: grey;
+    margin: 5px;
+    border: 1px solid lightgrey;
+    display: none;
+  }
+  #loadMore {
+    width: 200px;
+    color: #fff;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: blue;
+    transition: .3s;
+  }
+  #loadMore:hover {
+    color: blue;
+    background-color: #fff;
+    border: 1px solid blue;
+    text-decoration: none;
+  }
+  .noContent {
+    color: #000 !important;
+    background-color: transparent !important;
+    pointer-events: none;
+  }
+      
+
+  /* zoom */
+  .OriginalImageContainer {
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+  }
+    
+  .OriginalImage {
+    height: 400px;
+    display: inline-block;
+  }
+    
+  .ZoomInWindow {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .ZoomInWindowInside {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    background: red;
+  }
+  
+  .ZoomInWindow-Image {
+    position: relative
+  }
+  
+  .overlay-show {
+    position: absolute;
+    background: white;
+    width: 100px;
+    height: 100px;
+    opacity: 0.5;
+  }
+  
+  .SwitchButton {
+    display: block;
+  }

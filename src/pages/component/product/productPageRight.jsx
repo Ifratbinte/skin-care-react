@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import Product from './product'
+// import LoadMore from '../reactActions/loadMore'
 
 const ProductPageRight = () => {
 
@@ -46,7 +47,7 @@ const ProductPageRight = () => {
                 }
 
             </div>
-            <a href="/" className="loadMore-btn seemore-btn mt-3" id=" ">Load More</a>
+            <a href="/" className="button button-round btn-bg mt-5">Load More</a>
         </div>
     </div>
   )
