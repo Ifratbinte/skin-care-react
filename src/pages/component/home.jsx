@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import HeroSection from './slider/heroCarousel';
 import Category from './category/category'
-// import TopLatest from './product/topLatest'
+import TopLatest from './product/topLatest'
 
 class Home extends Component {
   render() {
@@ -9,7 +9,7 @@ class Home extends Component {
       <div>
         <HeroSection />
         <Category />
-        {/* <TopLatest /> */}
+        <TopLatest />
 
         {/* blog */}
         <section className="blog-video section-gap">

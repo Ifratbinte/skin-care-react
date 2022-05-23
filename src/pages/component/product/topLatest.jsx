@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import ProductSlider from '../slider/slick/productSlick'
+import ProductSlider from '../slider/slick/productSlider'
 
 class topLatest extends Component {
   render() {
