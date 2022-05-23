@@ -6,7 +6,7 @@ class HeaderAction extends Component {
         <div className="header-action">
             <ul className="action-nav">
                 <li className="action-nav-list">
-                    <a href="login.html">
+                    <a href="/login">
                         <div className="quick-icon login-icon">
                             <i className="icon fa fa-user-o mr-2"></i>
                         </div>

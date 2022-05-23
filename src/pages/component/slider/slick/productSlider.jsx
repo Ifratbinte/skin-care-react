@@ -142,7 +142,7 @@ function SlickProduct() {
             <div className="product-item">
                 <a href="/product-details">
                     <div className="pi-pic">
-                        <img className="card-product-img" src="assets/img/product/13.jpg" alt=""/>
+                        <img className="card-product-img" src="assets/img/product/14.jpg" alt=""/>
                     </div>
                     <div className="product-info">
                         <div className="pi-text text-center">
@@ -167,7 +167,7 @@ function SlickProduct() {
             <div className="product-item">
                 <a href="/product-details">
                     <div className="pi-pic">
-                        <img className="card-product-img" src="assets/img/product/13.jpg" alt=""/>
+                        <img className="card-product-img" src="assets/img/product/6.jpg" alt=""/>
                     </div>
                     <div className="product-info">
                         <div className="pi-text text-center">

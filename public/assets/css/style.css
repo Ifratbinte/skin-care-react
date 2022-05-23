@@ -992,7 +992,7 @@ a.btn-bg{
     margin-right: 3px;
 }
 
-.contact-info ul li a {
+.contact-info ul li span {
     color: #ffffff;
     display: block;
     padding: 12px 0px;
@@ -2490,8 +2490,8 @@ section.facility-section p {
 }
 
 .copyrights a {
-    color: #fff;
-    font-weight: 600;
+    color: #b9a67a;
+    font-weight: 700;
 }
 
 

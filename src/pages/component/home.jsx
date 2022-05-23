@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import HeroSection from './slider/heroCarousel';
 import Category from './category/category'
 import TopLatest from './product/topLatest'
+import HotDeals from './product/hotDeals'
 
 class Home extends Component {
   render() {
@@ -10,6 +11,7 @@ class Home extends Component {
         <HeroSection />
         <Category />
         <TopLatest />
+        <HotDeals/>
 
         {/* blog */}
         <section className="blog-video section-gap">

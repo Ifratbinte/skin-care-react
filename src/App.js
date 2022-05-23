@@ -15,6 +15,11 @@ import Terms from './pages/component/terms'
 import Thanks from './pages/component/thankYou'
 import Footer from './pages/component/layout/footer'
 
+// form
+import Login from './pages/component/Form/login'
+import Registration from './pages/component/Form/registration'
+import PassReq from './pages/component/Form/passwordRecovery'
+
 class App extends Component {
   render() {
     return (
@@ -29,7 +34,7 @@ class App extends Component {
           <HeaderTP />
           <Router>
             <Routes>
-                <Route path = "/" exact element={<Home />}/>
+                <Route path = "/index" exact element={<Home />}/>
                 <Route path="/about" element={<About/>}/>
                 <Route path = "/product" element={<Product />} />
                 <Route path = "/product-details" element={<ProductDetails />} />
@@ -40,6 +45,11 @@ class App extends Component {
                 <Route path = "/faq" element={<Faq />} />
                 <Route path = "/terms" element={<Terms />} />
                 <Route path = "/grettings" element={<Thanks />} />
+
+                {/* form */}
+                <Route path = "/login" element={<Login />} />
+                <Route path = "/registration" element={<Registration />} />
+                <Route path = "/password-recovery" element={<PassReq />} />
             </Routes>
           </Router>
           <Footer />

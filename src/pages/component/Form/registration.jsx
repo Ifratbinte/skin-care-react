@@ -10,7 +10,7 @@ class Registration extends Component {
                         <div className="row no-gutters">
                             <div className="col-lg-6">
                                 <div className="registration-card-img">
-                                    <img src="img/registration2.jpg" alt="login"/>
+                                    <img src="assets/img/registration2.jpg" alt="registration"/>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-lg-offset-1">
@@ -21,7 +21,7 @@ class Registration extends Component {
                                     </div>
                                     <form>
                                         <div className="social-login">
-                                            <button className="btn facebook-btn social-btn" type="button"><span><i className="fa fa-facebook"></i> Sign in with Facebook</span> </button>
+                                            <button className="btn facebook-btn social-btn mr-2" type="button"><span><i className="fa fa-facebook"></i> Sign in with Facebook</span> </button>
                                             <button className="btn google-btn social-btn" type="button"><span><i className="fa fa-google"></i> Sign in with Google</span> </button>
                                         </div>
                                         <p className='text-center'> OR </p>
@@ -64,17 +64,17 @@ class Registration extends Component {
                                             </div>
                                             <div className="form-group">
                                                 <div className=" col-sm-12 mt-2">
-                                                    <a href="/" className="button button-sqr btn-bg btn-block text-center" type="submit"><i className="fa fa-sign-in" aria-hidden="true"></i> Register</a>
+                                                    <a href="/" className="button button-sqr btn-bg text-center" type="submit"><i className="fa fa-sign-in" aria-hidden="true"></i> Register</a>
                                                 </div>
                                             </div>
                                         </div>
                                     </form>
 
                                     <div className="registration-card-footer-text mt-4">
-                                        <p>Already have an account? <a href="login.html">SignIn</a></p>
+                                        <p>Already have an account? <a href="/login">SignIn</a></p>
                                     </div>
                                     <nav className="registration-card-footer-nav">
-                                        <a href="terms.html">Terms & Privacy policy.</a>
+                                        <a href="/terms">Terms & Privacy policy.</a>
 
                                     </nav>
                                 </div>
