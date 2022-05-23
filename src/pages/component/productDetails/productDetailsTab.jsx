@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ProductDetailsTab() {
+function DetailsTab() {
   return (
     <div class="product-details-tab section-title">
         <div class="container">
@@ -91,4 +91,4 @@ function ProductDetailsTab() {
     </div>
   )
 }
-export default ProductDetailsTab;
+export default DetailsTab;

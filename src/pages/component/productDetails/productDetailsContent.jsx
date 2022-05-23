@@ -1,22 +1,8 @@
 import React, { Component } from 'react'
+import IncrementDecrement from '../cart/incrementDecrement';
 
 class ProductDetailsContent extends Component {
-    state ={
-        count : 0
-    }
-
-    incrementCount = () => {
-        this.setState({
-            count : this.state.count + 1
-        })
-    }
-    decrementCount = () => {
-        if(this.state.count > 0) {
-            this.setState({
-                count : this.state.count - 1
-            })
-        }
-    }
+    
   render() {
     return (
         <div className="col-lg-8">
@@ -43,18 +29,13 @@ class ProductDetailsContent extends Component {
                     <span className="single-product-current-price">৳ 400 </span>
                 </div>
                 <div className="quantity">
-                    <h5>Quantity :</h5>
-                    <div className="cart-product-qunty d-flex align-items-center">
-                        <ul>
-                            <li className="entry value-minus" onClick={this.decrementCount}><i className="fa fa-minus" aria-hidden="true"></i>
-                            </li>
-                            <li className="entry value"><span>{this.state.count}</span></li>
-                            <li className="entry value-plus active" onClick={this.incrementCount}><i className="fa fa-plus" aria-hidden="true"></i></li>
-                        </ul>
-                        <div className="ml-2">
-                            <a href="/cart" className="button-round btn-transparent btn-small">Add to Cart</a>
-                        </div>
-                    </div>
+                <div className="cart-product-qunty d-flex align-items-center">
+                    <IncrementDecrement/>
+                    <div className="ml-2">
+                        <a href="/cart" className="button-round btn-transparent btn-small">Add to Cart</a>
+                    </div>  
+                </div>
+                    
                 </div>
                 <div className="single-category">
                     <h5>Category : <a href="/">Lotion</a></h5>

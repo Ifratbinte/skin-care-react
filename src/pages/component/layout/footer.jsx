@@ -51,7 +51,7 @@ class Footer extends Component {
                     <div className="d-md-flex py-2">
                         <div className="mr-md-auto text-center text-md-left">
                             <div className="copyrights">
-                                <strong>Copyright &copy;2022</strong>
+                                <strong>Copyright &copy;2022 Skin Care</strong>
                             </div>
                         </div>
                         <div className="social-links text-center text-md-right pt-3 pt-md-0">

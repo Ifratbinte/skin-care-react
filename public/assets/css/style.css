@@ -135,6 +135,9 @@ ol {
 .section-gap{
     margin-top: 60px;
 }
+.section-gap-lg{
+    margin: 80px 0;
+}
 
 /* button */
 .btn-small{
@@ -2655,25 +2658,22 @@ span.single-product-current-price {
 .value-minus,
 .value-plus {
     width: 35px;
-    height: 35px;
+    height: 30px;
     margin-right: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     color: #03312B;
-    border: 1px solid #b9a67a;
 }
 
 .value {
-    cursor: default;
-    width: 35px;
-    height: 35px;
-    color: #fff;
+    width: 50px;
+    height: 30px;
+    color: #03312B;
     line-height: 28px;
-    border: 1px solid #b9a67a;
-    background-color: #b9a67a;
-    text-align: center;
+    border: 1px solid #ddd;
+    background-color: #f2f2f2;
     margin-right: 3px;
     font-size: 20px;
     font-weight: 600;
@@ -2778,52 +2778,11 @@ a.product-details-modal-signup {
     padding: 30px;
 }
 
-
-/* tab panel */
-
-nav>.nav.nav-tabs {
-    border: none;
-    color: #fff;
-    background: #03312B;
-    border-radius: 0;
-}
-
-nav>div a.nav-item.nav-link,
-nav>div a.nav-item.nav-link.active {
-    border: none;
-    padding: 18px 25px;
-    color: #fff;
-    background: #03312B;
-    border-radius: 0;
-    text-transform: uppercase;
-    flex: 1;
-    position: relative;
-}
-
-nav>div a.nav-item.nav-link.active:after {
-    content: "";
-    position: absolute;
-    border: 15px solid transparent;
-    border-top-color: #EB9896;
-    top: 64px;
-    left: 47%;
-}
-
 .tab-content {
     background: #fdfdfd;
     line-height: 25px;
     border: 1px solid #ddd;
-    border-top: 5px solid #EB9896;
-    border-bottom: 5px solid #EB9896;
     padding: 30px 25px;
-}
-
-nav>div a.nav-item.nav-link:focus {
-    border: none;
-    background: #EB9896;
-    color: #fff;
-    border-radius: 0;
-    transition: background 0.20s linear;
 }
 
 .product-details-tab .tab-para {
@@ -2854,14 +2813,14 @@ nav>div a.nav-item.nav-link:focus {
 .customer-info input[type="text"],
 .customer-info input[type="email"] {
     padding: 12px;
-    border: 2px solid #EB9896;
+    border: 2px solid #ddd;
     border-radius: 0px;
 }
 
 .customer-msg textarea {
     height: 150px !important;
     padding: 10px;
-    border: 2px solid #EB9896;
+    border: 2px solid #ddd;
     border-radius: 0px;
 }
 
@@ -2871,16 +2830,12 @@ nav>div a.nav-item.nav-link:focus {
 
 .customer-msg-send input[type="submit"] {
     padding: 7px 60px;
-    background: #EB9896;
+    background: #ddd;
     border: none;
     color: #fff;
     font-weight: 700;
     cursor: pointer;
     transition: all 0.4s;
-}
-
-.customer-msg-send input[type="submit"]:hover {
-    background: green;
 }
 
 .customer-comment span {
@@ -2899,15 +2854,10 @@ nav>div a.nav-item.nav-link:focus {
 }
 
 .customer-comment span a {
-    color: #EB9896;
+    color: #02332d;
     font-size: 18px;
     font-weight: 600;
     transition: all 0.4s;
-}
-
-.customer-comment span a:hover {
-    text-decoration: underline;
-    color: green;
 }
 
 .customer-comment span a i {
@@ -3324,10 +3274,6 @@ h3.cart-resp-head {
     position: relative;
 }
 
-.cart-details {
-    margin-bottom: 40px;
-}
-
 input.input-coupon2 {
     width: 75%;
 }
@@ -3365,7 +3311,6 @@ img.cart-product-img {
     color: #000;
     font-size: 16px;
     font-weight: 500;
-    margin-left: 30px;
 }
 
 .single-cart-product-media {
@@ -3379,10 +3324,6 @@ img.cart-product-img {
 
 .cart-product-qunty ul li {
     font-size: 15px;
-}
-
-.cart-product-qunty {
-    margin-top: 1rem;
 }
 
 li.entry.value-minus i {
@@ -4566,3 +4507,13 @@ form.form-recuvery {
   .SwitchButton {
     display: block;
   }
+
+  .table-inner {
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+.continue-shopping{
+    margin-top: 40px;
+}
+
+  
