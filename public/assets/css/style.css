@@ -2440,24 +2440,18 @@ section.facility-section p {
 }
 
 #footer .social-links a:hover {
-    color: #EB9896
+    color: #b9a67a
 }
 
 .footer-bottom {
     border-top: 1px solid rgba(255, 255, 255, .1);
     background-color: #1c3c38;
-    ;
 }
 
 .footer-newsletter p {
     color: #f2f2f2;
     margin-top: 18px;
     font-size: 16px;
-}
-
-#footer .social-links a:hover {
-    color: #fff;
-    text-decoration: none;
 }
 
 .credits a {
@@ -3853,10 +3847,6 @@ td.total h6 {
     padding: 16px;
 }
 
-.registration-page-registration-form label {
-    padding-left: 15px;
-}
-
 .registration-page-registration-form span {
     color: red;
 }
@@ -3864,47 +3854,6 @@ td.total h6 {
 .registration-card form {
     max-width: 100%;
 }
-
-.registration-card .form-control {
-    border: 1px solid #d5dae2;
-    padding: 15px 25px;
-    margin-bottom: 20px;
-    min-height: 45px;
-    font-size: 13px;
-    line-height: 15;
-    font-weight: normal;
-}
-
-.form-group.registration-input-field input {
-    border: 1px solid #EB9896;
-    border-radius: 24px;
-    padding: 8px 20px;
-}
-
-.registration-page-registration-btn a input {
-    padding: 8px 51px;
-    border: 1px solid #EB9896;
-    background: #EB9896;
-    color: #fff;
-    font-weight: 600;
-    text-transform: uppercase;
-    border-radius: 24px;
-    font-size: 16px;
-    cursor: pointer;
-    margin-bottom: 20px;
-    transition: 0.3s;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -ms-transition: 0.3s;
-    -o-transition: 0.3s;
-}
-
-.registration-page-registration-btn a input:hover {
-    border: 1px solid #EB9896;
-    background-color: transparent;
-    color: #EB9896;
-}
-
 .registration-card .forgot-password-link {
     font-size: 14px;
     color: #919aa3;
@@ -3918,11 +3867,6 @@ nav.registration-card-footer-nav {
     padding-bottom: 14px;
 }
 
-.registration-card-footer-text {
-    margin-bottom: 40px;
-    padding-left: 18px;
-}
-
 .registration-card-footer-text p {
     font-size: 15px;
     color: #919aa3;
@@ -3933,8 +3877,10 @@ a.text-reset {
     font-weight: 700;
     text-decoration: underline;
 }
-
-.registration-card-footer-nav a {
+.terms-text{
+    padding: 40px 0;
+}
+.terms-text a {
     font-size: 14px;
     color: #919aa3;
 }
