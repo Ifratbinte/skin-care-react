@@ -1,6 +1,10 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { CartContext } from '../cart';
 import IncrementDecrement from '../cart/incrementDecrement';
-const CartItems = ({image, title, desc, currentPrice, amount }) => {
+
+const CartItems = ({id, image, title, desc, currentPrice, amount }) => {
+
+    const {removeItem} = useContext(CartContext);
     
     return (
         <>
@@ -20,7 +24,7 @@ const CartItems = ({image, title, desc, currentPrice, amount }) => {
                         <h5>{currentPrice}</h5>
                     </div>
                     <div className="remove-item">
-                        <i className="fa fa-trash" aria-hidden="true"></i>
+                        <i className="fa fa-trash" onClick={() => removeItem(id)}></i>
                     </div>
                 </div>
                 <hr />
