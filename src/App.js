@@ -34,7 +34,7 @@ class App extends Component {
           <HeaderTP />
           <Router>
             <Routes>
-                <Route path = "/index" exact element={<Home />}/>
+                <Route path = "/" exact element={<Home />}/>
                 <Route path="/about" element={<About/>}/>
                 <Route path = "/product" element={<Product />} />
                 <Route path = "/product-details" element={<ProductDetails />} />

@@ -697,6 +697,58 @@
     .category-page-area .seemore-btn {
         width: 25%;
     }
+    /* cart */
+    .continue-shopping h3 {
+        margin-left: 0;
+        font-size: 1.85rem;
+      }
+    
+      .items-info {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+    
+      .title,
+      .add-minus-quantity,
+      .price,
+      .remove-item {
+        padding-left: 2rem;
+      }
+    
+      .items-info .product-img {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+    
+      .add-minus-quantity {
+        margin: 2rem 0 2rem 0;
+        justify-content: flex-start;
+      }
+    
+      .price {
+        justify-content: flex-start;
+        margin-bottom: 2rem;
+      }
+    
+      .price h3::before {
+        content: "Price: ";
+      }
+    
+      .remove-item {
+        justify-content: flex-start;
+      }
+    
+      .card-total {
+        margin-bottom: 2rem;
+        text-align: center;
+      }
+    
+      .card-total button {
+        margin-bottom: 3rem;
+      }
 }
 
 @media all and (max-width:575px) {

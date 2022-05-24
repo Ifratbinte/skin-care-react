@@ -8,7 +8,7 @@ class headerMiddle extends Component {
             <div className="row">
                 <div className="col-lg-2 col-md-2 col-sm-4 ">
                     <div className="logo">
-                        <a href="/index" className="site-logo">
+                        <a href="/" className="site-logo">
                             <img src="assets/img/logo.png" alt=""/>
                         </a>
                     </div>
