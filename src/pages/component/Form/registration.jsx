@@ -38,44 +38,40 @@ const Registration = () => {
   return (
     <section className="registration-page py-3 py-md-0">
         <div className="container">
-            <h3 className="register-head">Register</h3>
-            <div className="card registration-card my-4">
+            <div className="card card-shadow my-4">
                 <div className="row no-gutters">
-                    <div className="col-lg-6">
-                        <div className="registration-card-img">
-                            <img src="assets/img/registration2.jpg" alt="registration"/>
+                    <div className="col-md-5">
+                        <div className="registration-card-img d-md-block d-none">
+                            <img src="assets/img/registration.jpg" alt="registration" className='img-fluid'/>
                         </div>
                     </div>
-                    <div className="col-lg-6 col-lg-offset-1">
-                        <h3 className="register-head d-lg-none ">Register</h3>
+                    <div className="col-md-7 col-md-offset-1">
                         <div className="card-body registration-information">
-                            <div className="registration-card-description">
+                            <div className="registration-header mb-5">
+                                <h3>Create an account</h3>
                                 <p>For registration please fillup the required field</p>
                             </div>
                             <form action='' onSubmit={handleSubmit}>
-                                <div className="social-login">
-                                    <button className="btn facebook-btn social-btn mr-2" type="button"><span><i className="fa fa-facebook"></i> Sign in with Facebook</span> </button>
-                                    <button className="btn google-btn social-btn" type="button"><span><i className="fa fa-google"></i> Sign in with Google</span> </button>
-                                </div>
-                                <p className='text-center'> OR </p>
-                                <div className="registration-page-registration-form">
-                                    <div className="form-group">
-                                        <label htmlFor="first">Full Name<span>*</span></label>
-                                        <input type="text" className="form-control" id="name" autoComplete='off' value={userReg.username} onChange={handleInput} name="username"/>
+                                <div className="registration-form">
+                                    <div className="row">
+                                        <div className="form-group col-lg-6">
+                                            <label htmlFor="first">Full Name<span>*</span></label>
+                                            <input type="text" className="form-control" id="name" autoComplete='off' value={userReg.username} onChange={handleInput} name="username"/>
+                                        </div>
+                                        <div className="form-group col-lg-6">
+                                            <label htmlFor="email ">Email<span>*</span></label>
+                                            <input type="email" className="form-control" id="email" autoComplete='off' value={userReg.email} onChange={handleInput} name="email"/>
+                                        </div>
+                                        <div className="form-group col-lg-6">
+                                            <label htmlFor="number">Phone Number<span>*</span></label>
+                                            <input type="text" className="form-control" id="phone" autoComplete='off' value={userReg.phone} onChange={handleInput} name="phone"/>
+                                        </div>
+                                        <div className="form-group col-lg-6">
+                                            <label htmlFor="password ">Password<span>*</span></label>
+                                            <input type="password" className="form-control" id="password" autoComplete='off' value={userReg.password} onChange={handleInput} name="password"/>
+                                        </div>
                                     </div>
-                                    <div className="form-group">
-                                        <label htmlFor="email ">Email<span>*</span></label>
-                                        <input type="email" className="form-control" id="email" autoComplete='off' value={userReg.email} onChange={handleInput} name="email"/>
-                                    </div>
-                                    <div className="form-group">
-                                        <label htmlFor="number">Phone Number<span>*</span></label>
-                                        <input type="text" className="form-control" id="phone" autoComplete='off' value={userReg.phone} onChange={handleInput} name="phone"/>
-                                    </div>
-                                    <div className="form-group">
-                                        <label htmlFor="password ">Password<span>*</span></label>
-                                        <input type="password" className="form-control" id="password" autoComplete='off' value={userReg.password} onChange={handleInput} name="password"/>
-                                    </div>
-                                    <button className="button button-sqr btn-transparent" type="submit">Registration</button>
+                                    <button className="button button-sqr btn-transparent mt-2" type="submit">Registration</button>
                                 </div>
                             </form>
 

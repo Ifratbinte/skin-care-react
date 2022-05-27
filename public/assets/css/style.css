@@ -998,7 +998,11 @@ a.btn-bg{
     padding: 12px 0px;
     font-size: 15px;
 }
-
+.contact-page{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
 .topbar-menu {
     text-align: right;
 }
@@ -3344,10 +3348,6 @@ img.cart-product-img {
     font-size: 15px;
 }
 
-li.entry.value-minus i {
-    color: #000;
-}
-
 .single-cart-product-price p,
 .single-cart-product-subtotal-price p {
     margin-top: 1.5rem;
@@ -3434,7 +3434,7 @@ td.total h6 {
 /* -------------------------------------Contact page start------------------------------------ */
 
 .contact-details {
-    padding: 2rem 1rem;
+    padding: 3rem;
 }
 
 .mapouter {
@@ -3455,11 +3455,7 @@ td.total h6 {
 }
 
 .contact-title p {
-    font-size: 17px;
-    font-family: cursive;
-    color: #000;
-    text-align: center;
-    padding-top: 30px;
+    font-size: 18px;
 }
 
 .map-iframe {
@@ -3482,12 +3478,6 @@ td.total h6 {
 .contact-form button:hover {
     color: #fff;
 }
-
-.contact-details-bdr {
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
 .contact-form button:focus {
     box-shadow: none;
 }
@@ -3518,10 +3508,6 @@ td.total h6 {
 .contact-address-info p {
     color: #000;
     font-size: 15px;
-}
-
-.input-title-name {
-    margin-left: 30px;
 }
 
 .contact-form-heading h3 {
@@ -3818,7 +3804,7 @@ td.total h6 {
     color: #fff;
 }
 
-.registration-card {
+.card-shadow {
     border: 0;
     border-radius: 27.5px;
     box-shadow: 0 10px 30px 0 rgba(172, 168, 168, 0.43);
@@ -3826,28 +3812,19 @@ td.total h6 {
 }
 
 .registration-card-img {
-    border-radius: 0;
-    position: absolute;
-    width: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
+    height: 480px;
+    max-width: 100%;
 }
 
-.registration-card-img img {
-    height: 1020px;
-}
 
-.registration-card-description p {
-    font-size: 20px;
+.registration-header p {
+    font-size: 18px;
     color: #000;
     font-weight: normal;
-    font-family: 'Oleo Script', cursive;
-    letter-spacing: 1px;
-    text-align: center;
-    padding: 16px;
+    letter-spacing: .5px;
 }
 
-.registration-page-registration-form span {
+.registration-form span {
     color: red;
 }
 
@@ -3878,7 +3855,7 @@ a.text-reset {
     text-decoration: underline;
 }
 .terms-text{
-    padding: 40px 0;
+    padding: 20px 0;
 }
 .terms-text a {
     font-size: 14px;
@@ -4483,8 +4460,7 @@ form.form-recuvery {
     padding: 20px;
 }
 
-/* ................................ */
-/* Cart */
+
 
 
   

@@ -44,10 +44,10 @@ class HeaderAction extends Component {
                 </li>
                 <li className="action-nav-list">
                     <div className="cart-box-wrapper">
-                        <a className="cart-info" href="cart.html">
+                        <a className="cart-info" href="/cart">
                             <span className="quick-icon">
                                 <i className="icon fa fa-shopping-bag"></i>
-                                <span className="quantity">0</span>
+                                {/* <span className="quantity">0</span> */}
                             </span>
                         </a>
                         <div className="cart-dropdown">
