@@ -35,15 +35,18 @@ export const reducer = (state, action) => {
         return {...state, item: updatedCart}
     }
 
-    // if(action.type === "GET_TOTAL"){ //accummlator store data in one place
-    //     let { totalItem } = state.item.reduce((accummlator, currentVal) => {
-    //         let {amount} = currentVal;
-    //         accummlator.totalItem += amount;
-    //         return accummlator
-    //     }, {
-    //         totalItem: 0
-    //     });
-    //     return { ...state, totalItem };
-    // }
+    if(action.type === "GET_TOTAL"){ 
+        let {totalItem} = state.item.reduce(
+            (accum, currentVal) => {
+                let{amount} = currentVal;
+                accum.totalItem += amount;
+                return accum;
+            }, 
+            {
+                totalItem: 0,
+            }
+        );
+        return {...state, totalItem};
+    }
     return state;
 };

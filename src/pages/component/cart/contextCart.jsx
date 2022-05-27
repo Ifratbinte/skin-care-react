@@ -5,7 +5,7 @@ import { CartContext } from '../cart';
 
 const ContextCart = () => {
     
-    const {item, clearCart} = useContext(CartContext);
+    const {item, clearCart,totalItem} = useContext(CartContext);
 
     if(item.length === 0){
         return(
@@ -19,14 +19,14 @@ const ContextCart = () => {
                             </div>
                             <div className="cart-icon">
                                 <img src="./assets/img/icons/cart.png" alt="" />
-                                <p>0</p>
+                                <p>{totalItem}</p>
                             </div>
                         </div>
                         <hr />
                         
                         <section className="main-cart-section section-gap">
                             <h3 className='mb-4'>Shopping Cart</h3>
-                            <p className="total-items">You have <span className="ttal-items-count">0</span> items in shopping cart</p>
+                            <p className="total-items">You have <span className="ttal-items-count">{totalItem}</span> items in shopping cart</p>
                             <div className="cart-items">
                                 <div className="cart-items-container">
                                     <Scrollbars>
@@ -64,14 +64,14 @@ const ContextCart = () => {
                     </div>
                     <div className="cart-icon">
                         <img src="./assets/img/icons/cart.png" alt="" />
-                        <p>7</p>
+                        <p>{totalItem}</p>
                     </div>
                 </div>
                 <hr />
                 
                 <section className="main-cart-section section-gap">
                     <h3 className='mb-4'>Shopping Cart</h3>
-                    <p className="total-items">You have <span className="ttal-items-count">7</span> items in shopping cart</p>
+                    <p className="total-items">You have <span className="ttal-items-count">{totalItem}</span> items in shopping cart</p>
                     <div className="cart-items">
                         <div className="cart-items-container">
                             <Scrollbars>
