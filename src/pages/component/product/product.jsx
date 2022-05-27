@@ -5,8 +5,9 @@ const Product = [
         name: 'Baby Lotion',
         title: 'Baby Lotion',
         desc : 'lorem ipsam',
-        oldprice: '৳ 35,00',
-        currentPrice: '৳ 30,00',
+        oldprice: 'USD 35,00',
+        currentPrice: 'USD 30,00',
+        price: "2000",
         amount: 1
     },
     {
@@ -15,8 +16,9 @@ const Product = [
         name: 'Cream',
         title: 'Cream',
         desc : 'lorem ipsam',
-        oldprice: '৳ 50,00',
-        currentPrice: '৳ 40,00',
+        oldprice: 'USD 50,00',
+        currentPrice: 'USD 40,00',
+        price: "750",
         amount: 1
     },
     {
@@ -25,8 +27,9 @@ const Product = [
         name: 'Body Lotion',
         title: 'Body Lotion',
         desc : 'lorem ipsam',
-        oldprice: '৳ 55,00',
-        currentPrice: '৳ 50,00',
+        oldprice: 'USD 55,00',
+        currentPrice: 'USD 50,00',
+        price: "200",
         amount: 1
     },
     {
@@ -35,8 +38,9 @@ const Product = [
         name: 'Night cream',
         title: 'Night cream',
         desc : 'lorem ipsam',
-        oldprice: '৳ 100,00',
-        currentPrice: '৳ 120,00',
+        oldprice: 'USD 100,00',
+        currentPrice: 'USD 120,00',
+        price: "1050",
         amount: 1
     },
     {
@@ -45,8 +49,9 @@ const Product = [
         name: 'Oil',
         title: 'Oil',
         desc : 'lorem ipsam',
-        oldprice: '৳ 35,00',
-        currentPrice: '৳ 30,00',
+        oldprice: 'USD 35,00',
+        currentPrice: 'USD 30,00',
+        price: "370",
         amount: 1
     },
     {
@@ -55,8 +60,9 @@ const Product = [
         name: 'Dark remover',
         title: 'Dark remover',
         desc : 'lorem ipsam',
-        oldprice: '৳ 85,00',
-        currentPrice: '৳ 80,00',
+        oldprice: 'USD 85,00',
+        currentPrice: 'USD 80,00',
+        price: "800",
         amount: 1
     },
     {
@@ -65,8 +71,9 @@ const Product = [
         name: 'Moisturizer',
         title: 'Moisturizer',
         desc : 'lorem ipsam',
-        oldprice: '৳ 105,00',
-        currentPrice: '৳ 108,00',
+        oldprice: 'USD 105,00',
+        currentPrice: 'USD 108,00',
+        price: "600",
         amount: 1
     },
     {
@@ -75,8 +82,9 @@ const Product = [
         name: 'Face Wash',
         title: 'Face Wash',
         desc : 'lorem ipsam',
-        oldprice: '৳ 35,00',
-        currentPrice: '৳ 30,00',
+        oldprice: 'USD 35,00',
+        currentPrice: 'USD 30,00',
+        price: "1200",
         amount: 1
     },
     {
@@ -85,8 +93,9 @@ const Product = [
         name: 'Moisturizer',
         title: 'Moisturizer',
         desc : 'lorem ipsam',
-        oldprice: '৳ 55,00',
-        currentPrice: '৳ 50,00',
+        oldprice: 'USD 55,00',
+        currentPrice: 'USD 50,00',
+        price: "1500",
         amount: 1
     },
     {
@@ -95,8 +104,9 @@ const Product = [
         name: 'Hair oil',
         title: 'Hair Oil',
         desc : 'lorem ipsam',
-        oldprice: '৳ 70,00',
-        currentPrice: '৳ 60,00',
+        oldprice: 'USD 70,00',
+        currentPrice: 'USD 60,00',
+        price: "500",
         amount: 1
     },
     {
@@ -105,8 +115,9 @@ const Product = [
         name: 'Shaving',
         title: 'Shaving',
         desc : 'lorem ipsam',
-        oldprice: '৳ 200,00',
-        currentPrice: '৳ 180,00',
+        oldprice: 'USD 200,00',
+        currentPrice: 'USD 180,00',
+        price: "1100",
         amount: 1
     },
     {
@@ -115,8 +126,9 @@ const Product = [
         name: 'Gel',
         title: 'Gel',
         desc : 'lorem ipsam',
-        oldprice: '৳ 35,00',
-        currentPrice: '৳ 30,00',
+        oldprice: 'USD 35,00',
+        currentPrice: 'USD 30,00',
+        price: "2200",
         amount: 1
     },
 ]

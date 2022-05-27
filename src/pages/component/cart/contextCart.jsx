@@ -5,7 +5,7 @@ import { CartContext } from '../cart';
 
 const ContextCart = () => {
     
-    const {item, clearCart,totalItem} = useContext(CartContext);
+    const {item, clearCart, totalItem, totalAmount} = useContext(CartContext);
 
     if(item.length === 0){
         return(
@@ -39,9 +39,9 @@ const ContextCart = () => {
                                 </div>
                             </div>
                             <div className="card-total">
-                                <h4>Cart Total : <span>2200</span></h4>
+                                <h4>Cart Total : <span>{totalAmount}</span>USD</h4>
                                 <div className="cart-bottom-btn">
-                                    <a href="/" className='button button-sqr btn-transparent mr-2' type='button'>Checkout</a>
+                                    <a href="/checkout" className='button button-sqr btn-transparent mr-2' type='button'>Checkout</a>
                                     <a href="/" className='button button-sqr btn-bg' type='button' onClick={clearCart}>Clear cart</a>
                                 </div>
                             </div>
@@ -84,9 +84,9 @@ const ContextCart = () => {
                         </div>
                     </div>
                     <div className="card-total">
-                        <h4>Cart Total : <span>2200</span></h4>
+                        <h4>Cart Total : <span>{totalAmount}</span>USD</h4>
                         <div className="cart-bottom-btn">
-                            <a href="/" className='button button-sqr btn-transparent mr-2' type='button'>Checkout</a>
+                            <a href="/checkout" className='button button-sqr btn-transparent mr-2' type='button'>Checkout</a>
                             <a href="/" className='button button-sqr btn-bg' type='button' onClick={clearCart}>Clear cart</a>
                         </div>
                     </div>
