@@ -123,15 +123,15 @@
 
 .items-info {
   width: 100%;
-  height: 4rem;
+  height: 3rem;
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .items-info .product-img img {
-  width: 6rem;
-  height: 5rem;
+  width: 5rem;
+  height: 4rem;
   filter: drop-shadow(0rem 0.4rem 1rem #f1f7ff);
   border-radius: 1rem;
 }
@@ -308,4 +308,12 @@
   .card-total button {
     margin-bottom: 3rem;
   }
+}
+
+
+.value-entry input[type="text"] {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 2px;
+  border-radius: 4px;
 }

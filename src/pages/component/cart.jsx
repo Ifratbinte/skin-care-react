@@ -32,13 +32,31 @@ const Cart = () => {
         })
     };
 
-  return (
+    // increment item
+    const increment = (id) => {
+        return dispatch({
+            type: "INCREMENT",
+            payload: id,
+        })
+    }
 
-    <CartContext.Provider value={{ ...state, removeItem, clearCart }}>
-        <ContextCart/>
-    </CartContext.Provider>
+
+    // //will use the useEffect to update the data
+    // useEffect(() => {
+    //   dispatch({
+    //       type: "GET_TOTAL"
+    //     });
+    //     console.log("hello");
+    // }, [state.item]);
     
-  )
+
+    return (
+
+        <CartContext.Provider value={{ ...state, removeItem, clearCart, increment}}>
+            <ContextCart/>
+        </CartContext.Provider>
+        
+    )
 }
 
 export default Cart;

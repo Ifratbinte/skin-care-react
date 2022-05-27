@@ -41,8 +41,8 @@ const ContextCart = () => {
                             <div className="card-total">
                                 <h4>Cart Total : <span>2200</span></h4>
                                 <div className="cart-bottom-btn">
-                                    <a href="#" className='button button-sqr btn-transparent mr-2' type='button'>Checkout</a>
-                                    <a href="#" className='button button-sqr btn-bg' type='button' onClick={clearCart}>Clear cart</a>
+                                    <a href="/" className='button button-sqr btn-transparent mr-2' type='button'>Checkout</a>
+                                    <a href="/" className='button button-sqr btn-bg' type='button' onClick={clearCart}>Clear cart</a>
                                 </div>
                             </div>
                             
@@ -86,11 +86,10 @@ const ContextCart = () => {
                     <div className="card-total">
                         <h4>Cart Total : <span>2200</span></h4>
                         <div className="cart-bottom-btn">
-                            <a href="#" className='button button-sqr btn-transparent mr-2' type='button'>Checkout</a>
-                            <a href="#" className='button button-sqr btn-bg' type='button' onClick={clearCart}>Clear cart</a>
+                            <a href="/" className='button button-sqr btn-transparent mr-2' type='button'>Checkout</a>
+                            <a href="/" className='button button-sqr btn-bg' type='button' onClick={clearCart}>Clear cart</a>
                         </div>
                     </div>
-                    
                 </section>
             </div>
         </div>
