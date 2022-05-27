@@ -40,6 +40,13 @@ const Cart = () => {
         })
     }
 
+      // decrement item
+      const decrement = (id) => {
+        return dispatch({
+            type: "DECREMENT",
+            payload: id,
+        })
+    }
 
     // //will use the useEffect to update the data
     // useEffect(() => {
@@ -52,7 +59,7 @@ const Cart = () => {
 
     return (
 
-        <CartContext.Provider value={{ ...state, removeItem, clearCart, increment}}>
+        <CartContext.Provider value={{ ...state, removeItem, clearCart, increment, decrement}}>
             <ContextCart/>
         </CartContext.Provider>
         
